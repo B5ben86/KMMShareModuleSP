@@ -1,0 +1,2 @@
+# KMMShareModuleSP
+KMMShareModule Swift Package
