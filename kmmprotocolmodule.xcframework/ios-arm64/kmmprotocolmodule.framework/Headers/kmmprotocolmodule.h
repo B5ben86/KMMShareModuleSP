@@ -546,7 +546,6 @@ __attribute__((swift_name("ProtocolParser")))
 + (instancetype)protocolParser __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KmmprotocolmoduleProtocolParser *shared __attribute__((swift_name("shared")));
 - (KmmprotocolmoduleProtocolContent *)parseJsonObject:(NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *)jsonObject __attribute__((swift_name("parse(jsonObject:)")));
-- (void)parseAsyncJsonObject:(NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *)jsonObject block:(void (^)(KmmprotocolmoduleProtocolContent * _Nullable))block __attribute__((swift_name("parseAsync(jsonObject:block:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2152,7 +2151,6 @@ __attribute__((swift_name("Parser")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)parseMessage:(NSString *)message completionHandler:(void (^)(NSArray<KmmprotocolmoduleParserResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("parse(message:completionHandler:)")));
-- (void)parseAsyncMessage:(NSString *)message block:(void (^)(NSArray<KmmprotocolmoduleParserResult *> *))block __attribute__((swift_name("parseAsync(message:block:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
