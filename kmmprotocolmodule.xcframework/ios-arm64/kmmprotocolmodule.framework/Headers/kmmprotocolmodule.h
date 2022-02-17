@@ -2616,7 +2616,6 @@ __attribute__((swift_name("ParserResult")))
 @interface KmmprotocolmoduleParserResult : KmmprotocolmoduleBase
 - (instancetype)initWithParaContent:(KmmprotocolmoduleProtocolContent *)paraContent __attribute__((swift_name("init(paraContent:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KmmprotocolmoduleParserResultCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 - (NSString *)stringify __attribute__((swift_name("stringify()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property KmmprotocolmoduleBaseInfo * _Nullable baseInfo __attribute__((swift_name("baseInfo")));
