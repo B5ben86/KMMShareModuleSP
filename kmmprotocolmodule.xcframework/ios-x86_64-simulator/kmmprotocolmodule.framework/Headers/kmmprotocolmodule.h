@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KmmprotocolmoduleHexToolKit, KmmprotocolmoduleMeasureTimeKit, KmmprotocolmoduleUtilityToolKit, KmmprotocolmoduleKMMLogger, KmmprotocolmoduleCommandResponseCallbackCache, KmmprotocolmoduleCmd, KmmprotocolmoduleParserResult, KmmprotocolmoduleBase64, KmmprotocolmoduleBase64Decoder, KmmprotocolmoduleBase64Encoder, KmmprotocolmoduleBase64DecoderCompanion, KmmprotocolmoduleKotlinByteArray, KmmprotocolmoduleBase64EncoderCompanion, KmmprotocolmoduleKotlinCharArray, KmmprotocolmoduleSha256Properties, KmmprotocolmoduleSha256PureCompanion, KmmprotocolmoduleKotlinArray<T>, KmmprotocolmoduleSha512Properties, KmmprotocolmoduleSha512PureCompanion, KmmprotocolmoduleL1DataCryptor, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement, KmmprotocolmoduleL1DataCryptorL1CmdCompanion, KmmprotocolmoduleL1DataCryptorL1Cmd, KmmprotocolmoduleL2DataCryptor, KmmprotocolmoduleL2DataCryptorL2CmdCompanion, KmmprotocolmoduleL2DataCryptorL2Cmd, KmmprotocolmoduleUserPwdGenerator, KmmprotocolmoduleKotlinEnumCompanion, KmmprotocolmoduleKotlinEnum<E>, KmmprotocolmoduleCmdTypeCompanion, KmmprotocolmoduleCmdType, KmmprotocolmoduleProtocolParser, KmmprotocolmoduleProtocolContent, KmmprotocolmoduleProtocolContentCompanion, KmmprotocolmoduleProtocolContentBaseContent, KmmprotocolmoduleProtocolContentInputDevContent, KmmprotocolmoduleProtocolContentOutputDevContent, KmmprotocolmoduleProtocolContentTimerContent, KmmprotocolmoduleProtocolContentBaseContentCompanion, KmmprotocolmoduleFactoryID, KmmprotocolmoduleFirmwareVersion, KmmprotocolmoduleProductionID, KmmprotocolmoduleProtocolVersion, KmmprotocolmoduleProtocolContentInputDevContentCompanion, KmmprotocolmoduleTriggerPara, KmmprotocolmoduleUserActionPara, KmmprotocolmoduleProtocolContentOutputDevContentCompanion, KmmprotocolmoduleDeviceTypeSet, KmmprotocolmoduleDevicePara, KmmprotocolmoduleProtocolContentTimerContentCompanion, KmmprotocolmoduleTimerParaV1, KmmprotocolmoduleTimerParaV2, KmmprotocolmoduleDeviceParaCompanion, KmmprotocolmoduleOnOffStatus, KmmprotocolmoduleFirmwareVersionCompanion, KmmprotocolmoduleParaStructureCompanion, KmmprotocolmoduleParaStructureRgbwType, KmmprotocolmoduleParaStructureIrValueType, KmmprotocolmoduleParaStructureRgbwAction, KmmprotocolmoduleParaStructureCurtainAction, KmmprotocolmoduleParaStructureCurtainWithLocAction, KmmprotocolmoduleParaStructureIrCmd, KmmprotocolmoduleParaStructureParaAction, KmmprotocolmoduleParaStructureRgbwActionCompanion, KmmprotocolmoduleTimerParaV1Companion, KmmprotocolmoduleTimerParaV1TimerBasePara, KmmprotocolmoduleTimerParaV1TimerBaseParaCompanion, KmmprotocolmoduleWeekMask, KmmprotocolmoduleTimerParaV2Companion, KmmprotocolmoduleTriggerParaCompanion, KmmprotocolmoduleUserActionParaCompanion, KmmprotocolmoduleParaStructure, KmmprotocolmoduleWeekMaskCompanion, KmmprotocolmoduleWeekMaskIndex, KmmprotocolmoduleWeekMaskIndexCompanion, KmmprotocolmoduleCmdCompanion, KmmprotocolmoduleFactoryIDCompanion, KmmprotocolmoduleOnOffStatusCompanion, KmmprotocolmoduleProductionIDCompanion, KmmprotocolmoduleProtocolComm, KmmprotocolmoduleProtocolKey, KmmprotocolmoduleProtocolVersionCompanion, KmmprotocolmoduleDeviceTypeClassify, KmmprotocolmoduleDeviceTypeSetCompanion, KmmprotocolmoduleDeviceTypeUtil, KmmprotocolmoduleAdditionsAndDeletionsCmdCreator, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DeviceParaCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DevicePara, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanParaCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanPara, KmmprotocolmoduleConfigCmdCreator, KmmprotocolmoduleControlCmdCreator, KmmprotocolmoduleControlCmdCreatorActivateTriggerParaCompanion, KmmprotocolmoduleControlCmdCreatorActivateTriggerPara, KmmprotocolmoduleGatewayCmdCreator, KmmprotocolmoduleGetInfoCmdCreator, KmmprotocolmoduleLinkageCmdCreator, KmmprotocolmoduleLinkageCmdCreatorAddActionCmdReturnType, KmmprotocolmoduleLinkageCmdCreatorAddActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorAddActionPara, KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerParaCompanion, KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerPara, KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionPara, KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionPara, KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayParaCompanion, KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayPara, KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusParaCompanion, KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusPara, KmmprotocolmoduleTimerCmdCreator, KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1ParaCompanion, KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1Para, KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2ParaCompanion, KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2Para, KmmprotocolmoduleTimerCmdCreatorDelTimerV1ParaCompanion, KmmprotocolmoduleTimerCmdCreatorDelTimerV1Para, KmmprotocolmoduleTimerCmdCreatorDelTimerV2ParaCompanion, KmmprotocolmoduleTimerCmdCreatorDelTimerV2Para, KmmprotocolmoduleUtil, KmmprotocolmoduleCommandAddAndDelDeviceCmdCompanion, KmmprotocolmoduleCommandConfigureCmdCompanion, KmmprotocolmoduleControllableApplianceInfo, KmmprotocolmoduleCommandControlCmdCompanion, KmmprotocolmoduleDetectableApplianceInfo, KmmprotocolmoduleCommandControlCmdControlAction, KmmprotocolmoduleCommandGatewayCmdCompanion, KmmprotocolmoduleCommandGetInfoCmdCompanion, KmmprotocolmoduleCommandLinkageCmdCompanion, KmmprotocolmoduleCommandLinkageCmdAddUserActionListCmdReturnType, KmmprotocolmoduleCommandLinkageCmdUserActionInfoNew, KmmprotocolmoduleDetectableApplianceStatus, KmmprotocolmoduleCommandTimerCmdCompanion, KmmprotocolmoduleBaseInfoCompanion, KmmprotocolmoduleErrorCode, KmmprotocolmoduleControllableApplianceInfoCompanion, KmmprotocolmoduleControllableApplianceInfoAirQualityInfo, KmmprotocolmoduleControllableApplianceInfoAirQualityPlusInfo, KmmprotocolmoduleControllableApplianceInfoConfInfo, KmmprotocolmoduleControllableApplianceInfoIrInfo, KmmprotocolmoduleControllableApplianceInfoAirQualityInfoCompanion, KmmprotocolmoduleControllableApplianceInfoAirQualityPlusInfoCompanion, KmmprotocolmoduleControllableApplianceInfoConfInfoCompanion, KmmprotocolmoduleControllableApplianceInfoConfInfoTurnOnMode, KmmprotocolmoduleControllableApplianceInfoConfInfoTurnOnModeCompanion, KmmprotocolmoduleControllableApplianceInfoIrInfoCompanion, KmmprotocolmoduleControllableDeviceInfoCompanion, KmmprotocolmoduleDefaultActionCompanion, KmmprotocolmoduleDefaultAction, KmmprotocolmoduleDetectableApplianceInfoCompanion, KmmprotocolmoduleDetectableApplianceStatusCompanion, KmmprotocolmoduleDetectableDeviceInfoCompanion, KmmprotocolmoduleUserAction, KmmprotocolmoduleErrorCodeCompanion, KmmprotocolmoduleParserResultCompanion, KmmprotocolmoduleBaseInfo, KmmprotocolmoduleControllableDeviceInfo, KmmprotocolmoduleDetectableDeviceInfo, KmmprotocolmoduleTimerInfo, KmmprotocolmoduleTimerInfoCompanion, KmmprotocolmoduleTimerV1Para, KmmprotocolmoduleTimerV2Para, KmmprotocolmoduleTimerV1ApplianceActionCompanion, KmmprotocolmoduleTimerV1ApplianceAction, KmmprotocolmoduleTimerV1ParaCompanion, KmmprotocolmoduleTimerV2ParaCompanion, KmmprotocolmoduleUserActionCompanion, KmmprotocolmoduleUserActionAppliancePara, KmmprotocolmoduleUserActionApplianceParaCompanion, KmmprotocolmoduleKotlinByteIterator, KmmprotocolmoduleKotlinCharIterator, KmmprotocolmoduleKotlinx_serialization_jsonJsonElementCompanion, KmmprotocolmoduleKotlinThrowable, KmmprotocolmoduleKotlinException, KmmprotocolmoduleKotlinRuntimeException, KmmprotocolmoduleKotlinIllegalStateException, KmmprotocolmoduleKotlinx_serialization_coreSerializersModule, KmmprotocolmoduleKotlinx_serialization_coreSerialKind, KmmprotocolmoduleKotlinNothing;
+@class KmmprotocolmoduleHexToolKitCompanion, KmmprotocolmoduleMeasureTimeKitCompanion, KmmprotocolmoduleUtilityToolKitCompanion, KmmprotocolmoduleKMMLoggerCompanion, KmmprotocolmoduleCommandResponseCallbackCache, KmmprotocolmoduleCmd, KmmprotocolmoduleParserResult, KmmprotocolmoduleBase64, KmmprotocolmoduleBase64Decoder, KmmprotocolmoduleBase64Encoder, KmmprotocolmoduleBase64DecoderCompanion, KmmprotocolmoduleKotlinByteArray, KmmprotocolmoduleBase64EncoderCompanion, KmmprotocolmoduleKotlinCharArray, KmmprotocolmoduleSha256Properties, KmmprotocolmoduleSha256PureCompanion, KmmprotocolmoduleKotlinArray<T>, KmmprotocolmoduleSha512Properties, KmmprotocolmoduleSha512PureCompanion, KmmprotocolmoduleL1DataCryptorCompanion, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement, KmmprotocolmoduleL1DataCryptorL1CmdCompanion, KmmprotocolmoduleL1DataCryptorL1Cmd, KmmprotocolmoduleL2DataCryptorCompanion, KmmprotocolmoduleL2DataCryptorL2CmdCompanion, KmmprotocolmoduleL2DataCryptorL2Cmd, KmmprotocolmoduleUserPwdGeneratorCompanion, KmmprotocolmoduleKotlinEnumCompanion, KmmprotocolmoduleKotlinEnum<E>, KmmprotocolmoduleCmdTypeCompanion, KmmprotocolmoduleCmdType, KmmprotocolmoduleProtocolParserCompanion, KmmprotocolmoduleProtocolContent, KmmprotocolmoduleProtocolContentCompanion, KmmprotocolmoduleProtocolContentBaseContent, KmmprotocolmoduleProtocolContentInputDevContent, KmmprotocolmoduleProtocolContentOutputDevContent, KmmprotocolmoduleProtocolContentTimerContent, KmmprotocolmoduleProtocolContentBaseContentCompanion, KmmprotocolmoduleFactoryID, KmmprotocolmoduleFirmwareVersion, KmmprotocolmoduleProductionID, KmmprotocolmoduleProtocolVersion, KmmprotocolmoduleProtocolContentInputDevContentCompanion, KmmprotocolmoduleTriggerPara, KmmprotocolmoduleUserActionPara, KmmprotocolmoduleProtocolContentOutputDevContentCompanion, KmmprotocolmoduleDeviceTypeSet, KmmprotocolmoduleDevicePara, KmmprotocolmoduleProtocolContentTimerContentCompanion, KmmprotocolmoduleTimerParaV1, KmmprotocolmoduleTimerParaV2, KmmprotocolmoduleDeviceParaCompanion, KmmprotocolmoduleOnOffStatus, KmmprotocolmoduleFirmwareVersionCompanion, KmmprotocolmoduleParaStructureCompanion, KmmprotocolmoduleParaStructureRgbwType, KmmprotocolmoduleParaStructureIrValueType, KmmprotocolmoduleParaStructureRgbwAction, KmmprotocolmoduleParaStructureCurtainAction, KmmprotocolmoduleParaStructureCurtainWithLocAction, KmmprotocolmoduleParaStructureIrCmd, KmmprotocolmoduleParaStructureParaAction, KmmprotocolmoduleParaStructureRgbwActionCompanion, KmmprotocolmoduleTimerParaV1Companion, KmmprotocolmoduleTimerParaV1TimerBasePara, KmmprotocolmoduleTimerParaV1TimerBaseParaCompanion, KmmprotocolmoduleWeekMask, KmmprotocolmoduleTimerParaV2Companion, KmmprotocolmoduleTriggerParaCompanion, KmmprotocolmoduleUserActionParaCompanion, KmmprotocolmoduleParaStructure, KmmprotocolmoduleWeekMaskCompanion, KmmprotocolmoduleWeekMaskIndex, KmmprotocolmoduleWeekMaskIndexCompanion, KmmprotocolmoduleCmdCompanion, KmmprotocolmoduleFactoryIDCompanion, KmmprotocolmoduleOnOffStatusCompanion, KmmprotocolmoduleProductionIDCompanion, KmmprotocolmoduleProtocolComm, KmmprotocolmoduleProtocolKey, KmmprotocolmoduleProtocolVersionCompanion, KmmprotocolmoduleDeviceTypeClassifyCompanion, KmmprotocolmoduleDeviceTypeSetCompanion, KmmprotocolmoduleDeviceTypeUtilCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DeviceParaCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DevicePara, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanParaCompanion, KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanPara, KmmprotocolmoduleConfigCmdCreatorCompanion, KmmprotocolmoduleControlCmdCreatorCompanion, KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerParaCompanion, KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerPara, KmmprotocolmoduleGatewayCmdCreatorCompanion, KmmprotocolmoduleGetInfoCmdCreatorCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionCmdReturnType, KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionPara, KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerPara, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionPara, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionPara, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayPara, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusParaCompanion, KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusPara, KmmprotocolmoduleTimerCmdCreatorCompanion, KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1ParaCompanion, KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1Para, KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2ParaCompanion, KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2Para, KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1ParaCompanion, KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1Para, KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2ParaCompanion, KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2Para, KmmprotocolmoduleUtilCompanion, KmmprotocolmoduleCommandAddAndDelDeviceCmdCompanion, KmmprotocolmoduleCommandConfigureCmdCompanion, KmmprotocolmoduleControllableApplianceInfo, KmmprotocolmoduleCommandControlCmdCompanion, KmmprotocolmoduleDetectableApplianceInfo, KmmprotocolmoduleCommandControlCmdControlAction, KmmprotocolmoduleCommandGatewayCmdCompanion, KmmprotocolmoduleCommandGetInfoCmdCompanion, KmmprotocolmoduleCommandLinkageCmdCompanion, KmmprotocolmoduleCommandLinkageCmdAddUserActionListCmdReturnType, KmmprotocolmoduleCommandLinkageCmdUserActionInfoNew, KmmprotocolmoduleDetectableApplianceStatus, KmmprotocolmoduleCommandTimerCmdCompanion, KmmprotocolmoduleParser, KmmprotocolmoduleBaseInfoCompanion, KmmprotocolmoduleErrorCode, KmmprotocolmoduleControllableApplianceInfoCompanion, KmmprotocolmoduleControllableApplianceInfoAirQualityInfo, KmmprotocolmoduleControllableApplianceInfoAirQualityPlusInfo, KmmprotocolmoduleControllableApplianceInfoConfInfo, KmmprotocolmoduleControllableApplianceInfoIrInfo, KmmprotocolmoduleControllableApplianceInfoAirQualityInfoCompanion, KmmprotocolmoduleControllableApplianceInfoAirQualityPlusInfoCompanion, KmmprotocolmoduleControllableApplianceInfoConfInfoCompanion, KmmprotocolmoduleControllableApplianceInfoConfInfoTurnOnMode, KmmprotocolmoduleControllableApplianceInfoConfInfoTurnOnModeCompanion, KmmprotocolmoduleControllableApplianceInfoIrInfoCompanion, KmmprotocolmoduleControllableDeviceInfoCompanion, KmmprotocolmoduleDefaultActionCompanion, KmmprotocolmoduleDefaultAction, KmmprotocolmoduleDetectableApplianceInfoCompanion, KmmprotocolmoduleDetectableApplianceStatusCompanion, KmmprotocolmoduleDetectableDeviceInfoCompanion, KmmprotocolmoduleUserAction, KmmprotocolmoduleErrorCodeCompanion, KmmprotocolmoduleParserResultCompanion, KmmprotocolmoduleBaseInfo, KmmprotocolmoduleControllableDeviceInfo, KmmprotocolmoduleDetectableDeviceInfo, KmmprotocolmoduleTimerInfo, KmmprotocolmoduleTimerInfoCompanion, KmmprotocolmoduleTimerV1Para, KmmprotocolmoduleTimerV2Para, KmmprotocolmoduleTimerV1ApplianceActionCompanion, KmmprotocolmoduleTimerV1ApplianceAction, KmmprotocolmoduleTimerV1ParaCompanion, KmmprotocolmoduleTimerV2ParaCompanion, KmmprotocolmoduleUserActionCompanion, KmmprotocolmoduleUserActionAppliancePara, KmmprotocolmoduleUserActionApplianceParaCompanion, KmmprotocolmoduleKotlinByteIterator, KmmprotocolmoduleKotlinCharIterator, KmmprotocolmoduleKotlinx_serialization_jsonJsonElementCompanion, KmmprotocolmoduleKotlinx_serialization_coreSerializersModule, KmmprotocolmoduleKotlinx_serialization_coreSerialKind, KmmprotocolmoduleKotlinNothing;
 
 @protocol KmmprotocolmoduleHashFunction, KmmprotocolmoduleMultipartHash, KmmprotocolmoduleSha256, KmmprotocolmoduleHash, KmmprotocolmoduleStatelessSha256, KmmprotocolmoduleSha512Multipart, KmmprotocolmoduleSha512, KmmprotocolmoduleKotlinx_serialization_coreKSerializer, KmmprotocolmoduleKotlinComparable, KmmprotocolmoduleKotlinIterator, KmmprotocolmoduleKotlinx_serialization_coreEncoder, KmmprotocolmoduleKotlinx_serialization_coreSerialDescriptor, KmmprotocolmoduleKotlinx_serialization_coreSerializationStrategy, KmmprotocolmoduleKotlinx_serialization_coreDecoder, KmmprotocolmoduleKotlinx_serialization_coreDeserializationStrategy, KmmprotocolmoduleKotlinx_serialization_coreCompositeEncoder, KmmprotocolmoduleKotlinAnnotation, KmmprotocolmoduleKotlinx_serialization_coreCompositeDecoder, KmmprotocolmoduleKotlinx_serialization_coreSerializersModuleCollector, KmmprotocolmoduleKotlinKClass, KmmprotocolmoduleKotlinKDeclarationContainer, KmmprotocolmoduleKotlinKAnnotatedElement, KmmprotocolmoduleKotlinKClassifier;
 
@@ -154,10 +154,18 @@ __attribute__((swift_name("DataTypeExtension")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HexToolKit")))
 @interface KmmprotocolmoduleHexToolKit : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleHexToolKitCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("HexToolKit.Companion")))
+@interface KmmprotocolmoduleHexToolKitCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)hexToolKit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleHexToolKit *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleHexToolKitCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)boolListToBitStringBoolList:(NSArray<KmmprotocolmoduleBoolean *> *)boolList __attribute__((swift_name("boolListToBitString(boolList:)")));
 - (NSString *)boolListToHexStringBoolList:(NSArray<KmmprotocolmoduleBoolean *> *)boolList __attribute__((swift_name("boolListToHexString(boolList:)")));
 - (uint64_t)boolListToLongBoolList:(NSArray<KmmprotocolmoduleBoolean *> *)boolList __attribute__((swift_name("boolListToLong(boolList:)")));
@@ -173,29 +181,53 @@ __attribute__((swift_name("HexToolKit")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MeasureTimeKit")))
 @interface KmmprotocolmoduleMeasureTimeKit : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleMeasureTimeKitCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MeasureTimeKit.Companion")))
+@interface KmmprotocolmoduleMeasureTimeKitCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)measureTimeKit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleMeasureTimeKit *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleMeasureTimeKitCompanion *shared __attribute__((swift_name("shared")));
 - (void)measureRunnable:(void (^)(void))runnable tag:(NSString *)tag __attribute__((swift_name("measure(runnable:tag:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UtilityToolKit")))
 @interface KmmprotocolmoduleUtilityToolKit : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleUtilityToolKitCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UtilityToolKit.Companion")))
+@interface KmmprotocolmoduleUtilityToolKitCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)utilityToolKit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleUtilityToolKit *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleUtilityToolKitCompanion *shared __attribute__((swift_name("shared")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KMMLogger")))
 @interface KmmprotocolmoduleKMMLogger : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleKMMLoggerCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMMLogger.Companion")))
+@interface KmmprotocolmoduleKMMLoggerCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)kMMLogger __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleKMMLogger *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleKMMLoggerCompanion *shared __attribute__((swift_name("shared")));
 - (void)dMessage:(id _Nullable)message __attribute__((swift_name("d(message:)")));
 @end;
 
@@ -400,10 +432,18 @@ __attribute__((swift_name("Sha512Pure.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("L1DataCryptor")))
 @interface KmmprotocolmoduleL1DataCryptor : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleL1DataCryptorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("L1DataCryptor.Companion")))
+@interface KmmprotocolmoduleL1DataCryptorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)l1DataCryptor __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleL1DataCryptor *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleL1DataCryptorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString * _Nullable)decodeJsonString:(NSString *)jsonString __attribute__((swift_name("decode(jsonString:)")));
 - (NSString * _Nullable)decodeJsonObject:(NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *)jsonObject __attribute__((swift_name("decode(jsonObject:)")));
 - (NSString * _Nullable)encodeL1DataRaw:(NSString *)l1DataRaw __attribute__((swift_name("encode(l1DataRaw:)")));
@@ -443,10 +483,18 @@ __attribute__((swift_name("L1DataCryptor.L1CmdCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("L2DataCryptor")))
 @interface KmmprotocolmoduleL2DataCryptor : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleL2DataCryptorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("L2DataCryptor.Companion")))
+@interface KmmprotocolmoduleL2DataCryptorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)l2DataCryptor __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleL2DataCryptor *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleL2DataCryptorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString * _Nullable)decodeHttpSource:(NSString *)source __attribute__((swift_name("decodeHttp(source:)")));
 - (NSString * _Nullable)decodeTcpJsonString:(NSString *)jsonString __attribute__((swift_name("decodeTcp(jsonString:)")));
 - (NSString *)encodeHttpSource:(NSString *)source __attribute__((swift_name("encodeHttp(source:)")));
@@ -485,10 +533,18 @@ __attribute__((swift_name("L2DataCryptor.L2CmdCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserPwdGenerator")))
 @interface KmmprotocolmoduleUserPwdGenerator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleUserPwdGeneratorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserPwdGenerator.Companion")))
+@interface KmmprotocolmoduleUserPwdGeneratorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)userPwdGenerator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleUserPwdGenerator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleUserPwdGeneratorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)pwdGeneratorUserPwdRaw:(NSString *)userPwdRaw __attribute__((swift_name("pwdGenerator(userPwdRaw:)")));
 @end;
 
@@ -541,24 +597,19 @@ __attribute__((swift_name("CmdType.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ProtocolParser")))
 @interface KmmprotocolmoduleProtocolParser : KmmprotocolmoduleBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)protocolParser __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleProtocolParser *shared __attribute__((swift_name("shared")));
-- (KmmprotocolmoduleProtocolContent *)parseJsonObject:(NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *)jsonObject __attribute__((swift_name("parse(jsonObject:)")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleProtocolParserCompanion *companion __attribute__((swift_name("companion")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("StickPackageHandler")))
-@interface KmmprotocolmoduleStickPackageHandler : KmmprotocolmoduleBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)splitRevMessage:(NSString *)revMessage completionHandler:(void (^)(NSMutableArray<NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("split(revMessage:completionHandler:)")));
+__attribute__((swift_name("ProtocolParser.Companion")))
+@interface KmmprotocolmoduleProtocolParserCompanion : KmmprotocolmoduleBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleProtocolParserCompanion *shared __attribute__((swift_name("shared")));
+- (KmmprotocolmoduleProtocolContent *)parseJsonObject:(NSDictionary<NSString *, KmmprotocolmoduleKotlinx_serialization_jsonJsonElement *> *)jsonObject __attribute__((swift_name("parse(jsonObject:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -567,7 +618,6 @@ __attribute__((swift_name("ProtocolContent")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) KmmprotocolmoduleProtocolContentCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 @property KmmprotocolmoduleProtocolContentBaseContent * _Nullable baseContent __attribute__((swift_name("baseContent")));
 @property KmmprotocolmoduleProtocolContentInputDevContent * _Nullable inputDevContent __attribute__((swift_name("inputDevContent")));
 @property KmmprotocolmoduleProtocolContentOutputDevContent * _Nullable outputDevContent __attribute__((swift_name("outputDevContent")));
@@ -1404,10 +1454,18 @@ __attribute__((swift_name("ProtocolVersion.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DeviceTypeClassify")))
 @interface KmmprotocolmoduleDeviceTypeClassify : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleDeviceTypeClassifyCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceTypeClassify.Companion")))
+@interface KmmprotocolmoduleDeviceTypeClassifyCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)deviceTypeClassify __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleDeviceTypeClassify *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleDeviceTypeClassifyCompanion *shared __attribute__((swift_name("shared")));
 - (BOOL)is1SocketDeviceDeviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet __attribute__((swift_name("is1SocketDevice(deviceTypeSet:)")));
 - (BOOL)is2SocketDeviceDeviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet __attribute__((swift_name("is2SocketDevice(deviceTypeSet:)")));
 - (BOOL)is3SocketDeviceDeviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet __attribute__((swift_name("is3SocketDevice(deviceTypeSet:)")));
@@ -1541,10 +1599,18 @@ __attribute__((swift_name("DeviceTypeSet.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DeviceTypeUtil")))
 @interface KmmprotocolmoduleDeviceTypeUtil : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleDeviceTypeUtilCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceTypeUtil.Companion")))
+@interface KmmprotocolmoduleDeviceTypeUtilCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)deviceTypeUtil __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleDeviceTypeUtil *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleDeviceTypeUtilCompanion *shared __attribute__((swift_name("shared")));
 - (KmmprotocolmoduleInt * _Nullable)findDeviceTypeNumberDeviceTypeString:(NSString *)deviceTypeString __attribute__((swift_name("findDeviceTypeNumber(deviceTypeString:)")));
 - (NSString * _Nullable)findDeviceTypeStringDeviceTypeNumber:(int32_t)deviceTypeNumber __attribute__((swift_name("findDeviceTypeString(deviceTypeNumber:)")));
 @end;
@@ -1552,10 +1618,18 @@ __attribute__((swift_name("DeviceTypeUtil")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdditionsAndDeletionsCmdCreator")))
 @interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.Companion")))
+@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)additionsAndDeletionsCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)addRF433DeviceSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("addRF433Device(sn:deviceTypeSet:factoryID:protocolVersion:)")));
 - (NSString *)deleteDeviceSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet deviceIndex:(int32_t)deviceIndex factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("deleteDevice(sn:deviceTypeSet:deviceIndex:factoryID:protocolVersion:)")));
 - (NSString *)startDeviceScanSn:(NSString *)sn factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("startDeviceScan(sn:factoryID:protocolVersion:)")));
@@ -1563,16 +1637,16 @@ __attribute__((swift_name("AdditionsAndDeletionsCmdCreator")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.AddRF433DevicePara")))
-@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DevicePara : KmmprotocolmoduleBase
+__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.CompanionAddRF433DevicePara")))
+@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DevicePara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd slaveType:(NSString *)slaveType __attribute__((swift_name("init(sn:seq:factoryID:cmd:slaveType:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DeviceParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DeviceParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DevicePara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd slaveType:(NSString *)slaveType __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:slaveType:)")));
+- (KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DevicePara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd slaveType:(NSString *)slaveType __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:slaveType:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1584,25 +1658,25 @@ __attribute__((swift_name("AdditionsAndDeletionsCmdCreator.AddRF433DevicePara"))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.AddRF433DeviceParaCompanion")))
-@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DeviceParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.CompanionAddRF433DeviceParaCompanion")))
+@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DeviceParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorAddRF433DeviceParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionAddRF433DeviceParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.DeviceScanPara")))
-@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanPara : KmmprotocolmoduleBase
+__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.CompanionDeviceScanPara")))
+@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd __attribute__((swift_name("init(sn:seq:factoryID:cmd:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
-- (KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:)")));
+- (KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1613,22 +1687,30 @@ __attribute__((swift_name("AdditionsAndDeletionsCmdCreator.DeviceScanPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.DeviceScanParaCompanion")))
-@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("AdditionsAndDeletionsCmdCreator.CompanionDeviceScanParaCompanion")))
+@interface KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorDeviceScanParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleAdditionsAndDeletionsCmdCreatorCompanionDeviceScanParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ConfigCmdCreator")))
 @interface KmmprotocolmoduleConfigCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleConfigCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ConfigCmdCreator.Companion")))
+@interface KmmprotocolmoduleConfigCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)configCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleConfigCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleConfigCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)modifyApplianceOnOffStatusSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex onOffStatus:(KmmprotocolmoduleOnOffStatus *)onOffStatus factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("modifyApplianceOnOffStatus(sn:deviceTypeSet:applianceIndex:onOffStatus:factoryID:protocolVersion:)")));
 - (NSString *)setMinBrightPercentSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex minBrightPercent:(int32_t)minBrightPercent factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("setMinBrightPercent(sn:deviceTypeSet:applianceIndex:minBrightPercent:factoryID:protocolVersion:)")));
 - (NSString *)setOnOffBrightAdjustSpeedSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex adjustSpeed:(int32_t)adjustSpeed factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("setOnOffBrightAdjustSpeed(sn:deviceTypeSet:applianceIndex:adjustSpeed:factoryID:protocolVersion:)")));
@@ -1639,10 +1721,18 @@ __attribute__((swift_name("ConfigCmdCreator")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ControlCmdCreator")))
 @interface KmmprotocolmoduleControlCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleControlCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ControlCmdCreator.Companion")))
+@interface KmmprotocolmoduleControlCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)controlCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleControlCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleControlCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)activateTriggerSn:(NSString *)sn triggerIndex:(int32_t)triggerIndex factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("activateTrigger(sn:triggerIndex:factoryID:protocolVersion:)")));
 - (NSString *)brightAdjustSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex brightPercent:(int32_t)brightPercent factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("brightAdjust(sn:deviceTypeSet:applianceIndex:brightPercent:factoryID:protocolVersion:)")));
 - (NSString *)controlApplianceGroupOnOffSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndexList:(NSArray<KmmprotocolmoduleInt *> *)applianceIndexList action:(BOOL)action factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("controlApplianceGroupOnOff(sn:deviceTypeSet:applianceIndexList:action:factoryID:protocolVersion:)")));
@@ -1655,16 +1745,16 @@ __attribute__((swift_name("ControlCmdCreator")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ControlCmdCreator.ActivateTriggerPara")))
-@interface KmmprotocolmoduleControlCmdCreatorActivateTriggerPara : KmmprotocolmoduleBase
+__attribute__((swift_name("ControlCmdCreator.CompanionActivateTriggerPara")))
+@interface KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex __attribute__((swift_name("init(sn:seq:factoryID:cmd:triggerIndex:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleControlCmdCreatorActivateTriggerParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (int32_t)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleControlCmdCreatorActivateTriggerPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:)")));
+- (KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1676,22 +1766,30 @@ __attribute__((swift_name("ControlCmdCreator.ActivateTriggerPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ControlCmdCreator.ActivateTriggerParaCompanion")))
-@interface KmmprotocolmoduleControlCmdCreatorActivateTriggerParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("ControlCmdCreator.CompanionActivateTriggerParaCompanion")))
+@interface KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleControlCmdCreatorActivateTriggerParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleControlCmdCreatorCompanionActivateTriggerParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GatewayCmdCreator")))
 @interface KmmprotocolmoduleGatewayCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleGatewayCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GatewayCmdCreator.Companion")))
+@interface KmmprotocolmoduleGatewayCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)gatewayCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleGatewayCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleGatewayCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)getGatewayFirmwareVersionSn:(NSString *)sn factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("getGatewayFirmwareVersion(sn:factoryID:protocolVersion:)")));
 - (NSString *)startGatewayFirmwareUpgradeSn:(NSString *)sn factoryID:(KmmprotocolmoduleFactoryID *)factoryID updateUrl:(NSString *)updateUrl updatePort:(int32_t)updatePort firmwarePath:(NSString *)firmwarePath protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("startGatewayFirmwareUpgrade(sn:factoryID:updateUrl:updatePort:firmwarePath:protocolVersion:)")));
 @end;
@@ -1699,10 +1797,18 @@ __attribute__((swift_name("GatewayCmdCreator")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetInfoCmdCreator")))
 @interface KmmprotocolmoduleGetInfoCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleGetInfoCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetInfoCmdCreator.Companion")))
+@interface KmmprotocolmoduleGetInfoCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)getInfoCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleGetInfoCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleGetInfoCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)getAllInfoSn:(NSString *)sn factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("getAllInfo(sn:factoryID:protocolVersion:)")));
 - (NSString *)getApplianceStatusSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("getApplianceStatus(sn:deviceTypeSet:applianceIndex:factoryID:protocolVersion:)")));
 @end;
@@ -1710,11 +1816,19 @@ __attribute__((swift_name("GetInfoCmdCreator")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LinkageCmdCreator")))
 @interface KmmprotocolmoduleLinkageCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkageCmdCreator.Companion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)linkageCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreator *shared __attribute__((swift_name("shared")));
-- (KmmprotocolmoduleLinkageCmdCreatorAddActionCmdReturnType *)addActionSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceActionList:(NSArray<KmmprotocolmoduleBoolean *> *)applianceActionList applianceMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)applianceMaskList paraList:(NSArray<KmmprotocolmoduleLong *> *)paraList paraMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)paraMaskList factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("addAction(sn:deviceTypeSet:applianceActionList:applianceMaskList:paraList:paraMaskList:factoryID:protocolVersion:)")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionCmdReturnType *)addActionSn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceActionList:(NSArray<KmmprotocolmoduleBoolean *> *)applianceActionList applianceMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)applianceMaskList paraList:(NSArray<KmmprotocolmoduleLong *> *)paraList paraMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)paraMaskList factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("addAction(sn:deviceTypeSet:applianceActionList:applianceMaskList:paraList:paraMaskList:factoryID:protocolVersion:)")));
 - (NSString *)setEmergencyTriggerSn:(NSString *)sn emergencyTriggerList:(NSArray<KmmprotocolmoduleBoolean *> *)emergencyTriggerList triggerMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)triggerMaskList factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("setEmergencyTrigger(sn:emergencyTriggerList:triggerMaskList:factoryID:protocolVersion:)")));
 - (NSString *)setTriggerActionSn:(NSString *)sn triggerIndex:(int32_t)triggerIndex userActionMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)userActionMaskList triggerStatusList:(NSArray<KmmprotocolmoduleBoolean *> *)triggerStatusList triggerMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)triggerMaskList factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("setTriggerAction(sn:triggerIndex:userActionMaskList:triggerStatusList:triggerMaskList:factoryID:protocolVersion:)")));
 - (NSString *)setTriggerDefaultActionSn:(NSString *)sn triggerIndex:(int32_t)triggerIndex defaultActionMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)defaultActionMaskList factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("setTriggerDefaultAction(sn:triggerIndex:defaultActionMaskList:factoryID:protocolVersion:)")));
@@ -1723,12 +1837,12 @@ __attribute__((swift_name("LinkageCmdCreator")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.AddActionCmdReturnType")))
-@interface KmmprotocolmoduleLinkageCmdCreatorAddActionCmdReturnType : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionAddActionCmdReturnType")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionCmdReturnType : KmmprotocolmoduleBase
 - (instancetype)initWithSeq:(int64_t)seq cmd:(NSString *)cmd __attribute__((swift_name("init(seq:cmd:)"))) __attribute__((objc_designated_initializer));
 - (int64_t)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component2 __attribute__((swift_name("component2()")));
-- (KmmprotocolmoduleLinkageCmdCreatorAddActionCmdReturnType *)doCopySeq:(int64_t)seq cmd:(NSString *)cmd __attribute__((swift_name("doCopy(seq:cmd:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionCmdReturnType *)doCopySeq:(int64_t)seq cmd:(NSString *)cmd __attribute__((swift_name("doCopy(seq:cmd:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1737,10 +1851,10 @@ __attribute__((swift_name("LinkageCmdCreator.AddActionCmdReturnType")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.AddActionPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorAddActionPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionAddActionPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd devType:(int32_t)devType rlyAction:(NSString *)rlyAction rlyMask:(NSString *)rlyMask para:(NSArray<KmmprotocolmoduleLong *> *)para paraMask:(NSString *)paraMask __attribute__((swift_name("init(sn:seq:factoryID:cmd:devType:rlyAction:rlyMask:para:paraMask:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorAddActionParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
@@ -1750,7 +1864,7 @@ __attribute__((swift_name("LinkageCmdCreator.AddActionPara")))
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSArray<KmmprotocolmoduleLong *> *)component8 __attribute__((swift_name("component8()")));
 - (NSString *)component9 __attribute__((swift_name("component9()")));
-- (KmmprotocolmoduleLinkageCmdCreatorAddActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd devType:(int32_t)devType rlyAction:(NSString *)rlyAction rlyMask:(NSString *)rlyMask para:(NSArray<KmmprotocolmoduleLong *> *)para paraMask:(NSString *)paraMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:devType:rlyAction:rlyMask:para:paraMask:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd devType:(int32_t)devType rlyAction:(NSString *)rlyAction rlyMask:(NSString *)rlyMask para:(NSArray<KmmprotocolmoduleLong *> *)para paraMask:(NSString *)paraMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:devType:rlyAction:rlyMask:para:paraMask:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1766,27 +1880,27 @@ __attribute__((swift_name("LinkageCmdCreator.AddActionPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.AddActionParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorAddActionParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionAddActionParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorAddActionParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionAddActionParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetEmergencyTriggerPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetEmergencyTriggerPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd noDisableTrigger:(NSString *)noDisableTrigger triggerMask:(NSString *)triggerMask __attribute__((swift_name("init(sn:seq:factoryID:cmd:noDisableTrigger:triggerMask:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
 - (NSString *)component6 __attribute__((swift_name("component6()")));
-- (KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd noDisableTrigger:(NSString *)noDisableTrigger triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:noDisableTrigger:triggerMask:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd noDisableTrigger:(NSString *)noDisableTrigger triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:noDisableTrigger:triggerMask:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1799,20 +1913,20 @@ __attribute__((swift_name("LinkageCmdCreator.SetEmergencyTriggerPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetEmergencyTriggerParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetEmergencyTriggerParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorSetEmergencyTriggerParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionSetEmergencyTriggerParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerActionPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerActionPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex actionMask:(NSString *)actionMask triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("init(sn:seq:factoryID:cmd:triggerIndex:actionMask:triggerStatus:triggerMask:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
@@ -1821,7 +1935,7 @@ __attribute__((swift_name("LinkageCmdCreator.SetTriggerActionPara")))
 - (NSString *)component6 __attribute__((swift_name("component6()")));
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSString *)component8 __attribute__((swift_name("component8()")));
-- (KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex actionMask:(NSString *)actionMask triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:actionMask:triggerStatus:triggerMask:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex actionMask:(NSString *)actionMask triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:actionMask:triggerStatus:triggerMask:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1836,27 +1950,27 @@ __attribute__((swift_name("LinkageCmdCreator.SetTriggerActionPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerActionParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerActionParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorSetTriggerActionParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerActionParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerDefaultActionPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerDefaultActionPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex defaultActionMask:(NSString *)defaultActionMask __attribute__((swift_name("init(sn:seq:factoryID:cmd:triggerIndex:defaultActionMask:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (int32_t)component5 __attribute__((swift_name("component5()")));
 - (NSString *)component6 __attribute__((swift_name("component6()")));
-- (KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex defaultActionMask:(NSString *)defaultActionMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:defaultActionMask:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex defaultActionMask:(NSString *)defaultActionMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:defaultActionMask:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1869,27 +1983,27 @@ __attribute__((swift_name("LinkageCmdCreator.SetTriggerDefaultActionPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerDefaultActionParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerDefaultActionParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorSetTriggerDefaultActionParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDefaultActionParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerDelayPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerDelayPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex delay:(int32_t)delay __attribute__((swift_name("init(sn:seq:factoryID:cmd:triggerIndex:delay:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (int32_t)component5 __attribute__((swift_name("component5()")));
 - (int32_t)component6 __attribute__((swift_name("component6()")));
-- (KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex delay:(int32_t)delay __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:delay:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerIndex:(int32_t)triggerIndex delay:(int32_t)delay __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerIndex:delay:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1902,27 +2016,27 @@ __attribute__((swift_name("LinkageCmdCreator.SetTriggerDelayPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerDelayParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerDelayParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorSetTriggerDelayParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerDelayParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerStatusPara")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusPara : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerStatusPara")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusPara : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("init(sn:seq:factoryID:cmd:triggerStatus:triggerMask:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
 - (NSString *)component6 __attribute__((swift_name("component6()")));
-- (KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerStatus:triggerMask:)")));
+- (KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusPara *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd triggerStatus:(NSString *)triggerStatus triggerMask:(NSString *)triggerMask __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:triggerStatus:triggerMask:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1935,22 +2049,30 @@ __attribute__((swift_name("LinkageCmdCreator.SetTriggerStatusPara")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LinkageCmdCreator.SetTriggerStatusParaCompanion")))
-@interface KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("LinkageCmdCreator.CompanionSetTriggerStatusParaCompanion")))
+@interface KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorSetTriggerStatusParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleLinkageCmdCreatorCompanionSetTriggerStatusParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TimerCmdCreator")))
 @interface KmmprotocolmoduleTimerCmdCreator : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TimerCmdCreator.Companion")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)timerCmdCreator __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreator *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)addTimerV1Sn:(NSString *)sn deviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex action:(BOOL)action enable:(BOOL)enable timestamp:(int64_t)timestamp weekMaskFromUserTimezone:(KmmprotocolmoduleWeekMask *)weekMaskFromUserTimezone factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("addTimerV1(sn:deviceTypeSet:applianceIndex:action:enable:timestamp:weekMaskFromUserTimezone:factoryID:protocolVersion:)"))) __attribute__((deprecated("TimerV1 已弃用")));
 - (NSString *)addTimerV2Sn:(NSString *)sn actionMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)actionMaskList triggerStatusList:(NSArray<KmmprotocolmoduleBoolean *> *)triggerStatusList triggerMaskList:(NSArray<KmmprotocolmoduleBoolean *> *)triggerMaskList enable:(BOOL)enable timestamp:(int64_t)timestamp weekMaskFromUserTimezone:(KmmprotocolmoduleWeekMask *)weekMaskFromUserTimezone factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("addTimerV2(sn:actionMaskList:triggerStatusList:triggerMaskList:enable:timestamp:weekMaskFromUserTimezone:factoryID:protocolVersion:)")));
 - (NSString *)delTimerV2Sn:(NSString *)sn timerIndex:(int32_t)timerIndex factoryID:(KmmprotocolmoduleFactoryID *)factoryID protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("delTimerV2(sn:timerIndex:factoryID:protocolVersion:)")));
@@ -1961,16 +2083,16 @@ __attribute__((swift_name("TimerCmdCreator")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV1Para")))
-@interface KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1Para : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionAddOrModifyTimerV1Para")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1Para : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<NSString *> *)timer __attribute__((swift_name("init(sn:seq:factoryID:cmd:timer:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1ParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1ParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSArray<NSString *> *)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<NSString *> *)timer __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timer:)")));
+- (KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<NSString *> *)timer __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1982,26 +2104,26 @@ __attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV1Para")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV1ParaCompanion")))
-@interface KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1ParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionAddOrModifyTimerV1ParaCompanion")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1ParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV1ParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV1ParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV2Para")))
-@interface KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2Para : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionAddOrModifyTimerV2Para")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2Para : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleLong *> *)timerPara __attribute__((swift_name("init(sn:seq:factoryID:cmd:timerPara:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2ParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2ParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSArray<KmmprotocolmoduleLong *> *)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleLong *> *)timerPara __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timerPara:)")));
+- (KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleLong *> *)timerPara __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timerPara:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2013,26 +2135,26 @@ __attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV2Para")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.AddOrModifyTimerV2ParaCompanion")))
-@interface KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2ParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionAddOrModifyTimerV2ParaCompanion")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2ParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorAddOrModifyTimerV2ParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorCompanionAddOrModifyTimerV2ParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.DelTimerV1Para")))
-@interface KmmprotocolmoduleTimerCmdCreatorDelTimerV1Para : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionDelTimerV1Para")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1Para : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<KmmprotocolmoduleInt *> *)timer __attribute__((swift_name("init(sn:seq:factoryID:cmd:timer:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorDelTimerV1ParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1ParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSArray<KmmprotocolmoduleInt *> *)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleTimerCmdCreatorDelTimerV1Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<KmmprotocolmoduleInt *> *)timer __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timer:)")));
+- (KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timer:(NSArray<KmmprotocolmoduleInt *> *)timer __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2044,26 +2166,26 @@ __attribute__((swift_name("TimerCmdCreator.DelTimerV1Para")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.DelTimerV1ParaCompanion")))
-@interface KmmprotocolmoduleTimerCmdCreatorDelTimerV1ParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionDelTimerV1ParaCompanion")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1ParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorDelTimerV1ParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV1ParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.DelTimerV2Para")))
-@interface KmmprotocolmoduleTimerCmdCreatorDelTimerV2Para : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionDelTimerV2Para")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2Para : KmmprotocolmoduleBase
 - (instancetype)initWithSn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleInt *> *)timerPara __attribute__((swift_name("init(sn:seq:factoryID:cmd:timerPara:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorDelTimerV2ParaCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2ParaCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSArray<KmmprotocolmoduleInt *> *)component5 __attribute__((swift_name("component5()")));
-- (KmmprotocolmoduleTimerCmdCreatorDelTimerV2Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleInt *> *)timerPara __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timerPara:)")));
+- (KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2Para *)doCopySn:(NSString *)sn seq:(int32_t)seq factoryID:(int32_t)factoryID cmd:(NSString *)cmd timerPara:(NSArray<KmmprotocolmoduleInt *> *)timerPara __attribute__((swift_name("doCopy(sn:seq:factoryID:cmd:timerPara:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2075,22 +2197,30 @@ __attribute__((swift_name("TimerCmdCreator.DelTimerV2Para")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimerCmdCreator.DelTimerV2ParaCompanion")))
-@interface KmmprotocolmoduleTimerCmdCreatorDelTimerV2ParaCompanion : KmmprotocolmoduleBase
+__attribute__((swift_name("TimerCmdCreator.CompanionDelTimerV2ParaCompanion")))
+@interface KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2ParaCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorDelTimerV2ParaCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleTimerCmdCreatorCompanionDelTimerV2ParaCompanion *shared __attribute__((swift_name("shared")));
 - (id<KmmprotocolmoduleKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Util")))
 @interface KmmprotocolmoduleUtil : KmmprotocolmoduleBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KmmprotocolmoduleUtilCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Util.Companion")))
+@interface KmmprotocolmoduleUtilCompanion : KmmprotocolmoduleBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)util __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KmmprotocolmoduleUtil *shared __attribute__((swift_name("shared")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleUtilCompanion *shared __attribute__((swift_name("shared")));
 - (NSString *)encodeCmdRaw:(NSString *)cmdRaw protocolVersion:(KmmprotocolmoduleProtocolVersion *)protocolVersion __attribute__((swift_name("encode(cmdRaw:protocolVersion:)")));
 - (int32_t)getApplianceAmountDeviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet __attribute__((swift_name("getApplianceAmount(deviceTypeSet:)")));
 - (int32_t)getDeviceIndexDeviceTypeSet:(KmmprotocolmoduleDeviceTypeSet *)deviceTypeSet applianceIndex:(int32_t)applianceIndex __attribute__((swift_name("getDeviceIndex(deviceTypeSet:applianceIndex:)")));
@@ -2298,14 +2428,11 @@ __attribute__((swift_name("Command.TimerCmdCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Parser")))
 @interface KmmprotocolmoduleParser : KmmprotocolmoduleBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)parseMessage:(NSString *)message completionHandler:(void (^)(NSArray<KmmprotocolmoduleParserResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("parse(message:completionHandler:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)parser __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KmmprotocolmoduleParser *shared __attribute__((swift_name("shared")));
+- (KmmprotocolmoduleParserResult * _Nullable)parseMessage:(NSString *)message __attribute__((swift_name("parse(message:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2891,57 +3018,6 @@ __attribute__((swift_name("KotlinEnumCompanion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KmmprotocolmoduleKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("KotlinThrowable")))
-@interface KmmprotocolmoduleKotlinThrowable : KmmprotocolmoduleBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (KmmprotocolmoduleKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
-- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) KmmprotocolmoduleKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
-@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
-- (NSError *)asError __attribute__((swift_name("asError()")));
-@end;
-
-__attribute__((swift_name("KotlinException")))
-@interface KmmprotocolmoduleKotlinException : KmmprotocolmoduleKotlinThrowable
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface KmmprotocolmoduleKotlinRuntimeException : KmmprotocolmoduleKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface KmmprotocolmoduleKotlinIllegalStateException : KmmprotocolmoduleKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((swift_name("KotlinCancellationException")))
-@interface KmmprotocolmoduleKotlinCancellationException : KmmprotocolmoduleKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KmmprotocolmoduleKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
