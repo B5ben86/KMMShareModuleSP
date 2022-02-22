@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KmmProtocolModule"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "WiLink TCP 协议库"
 
   # This description is used to generate tags and improve search results.
