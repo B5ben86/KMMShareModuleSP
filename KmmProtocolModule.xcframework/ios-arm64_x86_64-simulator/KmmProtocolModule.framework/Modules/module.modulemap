@@ -1,6 +1,0 @@
-framework module KmmProtocolModule {
-    umbrella header "KmmProtocolModule.h"
-
-    export *
-    module * { export * }
-}
