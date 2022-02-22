@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KmmProtocolModule"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "WiLink TCP 协议库"
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "KMMProtocolModule.xcframework/**/KmmProtocolModule.framework/Headers/*.{h,m}"
+  spec.source_files  = "KmmProtocolModule.xcframework/**/KmmProtocolModule.framework/Headers/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "KMMProtocolModule.xcframework/**/KmmProtocolModule.framework/Headers/*.h"
+  spec.public_header_files = "KmmProtocolModule.xcframework/**/KmmProtocolModule.framework/Headers/*.h"
 
   spec.static_framework = true
 
