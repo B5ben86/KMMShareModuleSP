@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "kmmprotocolmodule",
+    name: "KmmProtocolModule",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "kmmprotocolmodule",
-            targets: ["kmmprotocolmodule"]
+            name: "KmmProtocolModule",
+            targets: ["KmmProtocolModule"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "kmmprotocolmodule",
-            path: "./kmmprotocolmodule.xcframework"
+            name: "KmmProtocolModule",
+            path: "./KmmProtocolModule.xcframework"
         ),
     ]
 )

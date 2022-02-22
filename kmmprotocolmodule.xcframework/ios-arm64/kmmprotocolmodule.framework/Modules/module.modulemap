@@ -1,5 +1,5 @@
-framework module kmmprotocolmodule {
-    umbrella header "kmmprotocolmodule.h"
+framework module KmmProtocolModule {
+    umbrella header "KmmProtocolModule.h"
 
     export *
     module * { export * }
