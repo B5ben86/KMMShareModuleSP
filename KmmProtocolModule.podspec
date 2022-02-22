@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KmmProtocolModule"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "WiLink TCP 协议库"
 
   # This description is used to generate tags and improve search results.
@@ -97,6 +97,9 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "KmmProtocolModule.xcframework/**/KmmProtocolModule.framework/Headers/*.h"
 
   spec.static_framework = true
+
+  # Published binaries
+  spec.vendored_frameworks = "KmmProtocolModule.xcframework"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
