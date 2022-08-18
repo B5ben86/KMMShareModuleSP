@@ -3,4 +3,6 @@ framework module KmmProtocolModule {
 
     export *
     module * { export * }
+
+    use Foundation
 }

@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KPMMeasureTimeKitCompanion, KPMKMMLoggerCompanion, KPMFirmwareVersionCompanion, KPMFirmwareVersion, KPMParaStructureCompanion, KPMParaStructureRgbwType, KPMParaStructureIrValueType, KPMParaStructureRgbwAction, KPMKotlinEnumCompanion, KPMKotlinEnum<E>, KPMParaStructureCurtainAction, KPMKotlinArray<T>, KPMParaStructureCurtainWithLocAction, KPMParaStructureIrCmd, KPMParaStructureParaAction, KPMParaStructureRgbwActionCompanion, KPMWeekMask, KPMWeekMaskCompanion, KPMWeekMaskIndex, KPMWeekMaskIndexCompanion, KPMCmdCompanion, KPMCmd, KPMNetworkType, KPMOnOffStatusCompanion, KPMOnOffStatus, KPMProtocolVersionCompanion, KPMProtocolVersion, KPMDeviceTypeClassifyCompanion, KPMDeviceTypeSet, KPMDeviceTypeSetCompanion, KPMCommandData, KPMAddAndDelDeviceCmdCompanion, KPMConfigureCmdCompanion, KPMControllableApplianceInfo, KPMParaStructure, KPMControlCmdCompanion, KPMDetectableApplianceInfo, KPMControlCmdControlAction, KPMGatewayCmdCompanion, KPMGetInfoCmdCompanion, KPMLinkageCmdCompanion, KPMLinkageCmdUserActionInfoNew, KPMDetectableApplianceStatus, KPMDefaultAction, KPMTimerCmdCompanion, KPMParserCompanion, KPMParserResult, KPMBaseInfoCompanion, KPMErrorCode, KPMControllableApplianceInfoCompanion, KPMControllableApplianceInfoAirQualityInfo, KPMControllableApplianceInfoAirQualityPlusInfo, KPMControllableApplianceInfoConfInfo, KPMControllableApplianceInfoIrInfo, KPMControllableApplianceInfoAirQualityInfoCompanion, KPMControllableApplianceInfoAirQualityPlusInfoCompanion, KPMControllableApplianceInfoConfInfoCompanion, KPMControllableApplianceInfoConfInfoTurnOnMode, KPMControllableApplianceInfoConfInfoTurnOnModeCompanion, KPMControllableApplianceInfoIrInfoCompanion, KPMControllableDeviceInfoCompanion, KPMDefaultActionCompanion, KPMDetectableApplianceEmergencyStatusCompanion, KPMDetectableApplianceEmergencyStatus, KPMDetectableApplianceInfoCompanion, KPMDetectableApplianceStatusCompanion, KPMDetectableDeviceInfoCompanion, KPMUserAction, KPMErrorCodeCompanion, KPMParserResultCompanion, KPMBaseInfo, KPMControllableDeviceInfo, KPMDetectableDeviceInfo, KPMTimerInfo, KPMTimerInfoCompanion, KPMTimerV1Para, KPMTimerV2Para, KPMTimerV1ApplianceActionCompanion, KPMTimerV1ApplianceAction, KPMTimerV1ParaCompanion, KPMTimerV2ParaCompanion, KPMUserActionCompanion, KPMUserActionAppliancePara, KPMUserActionApplianceParaCompanion, KPMKotlinx_serialization_coreSerializersModule, KPMKotlinx_serialization_coreSerialKind, KPMKotlinNothing;
+@class KPMKmmApplicationCache, KPMKMMApplication, KPMMeasureTimeKitCompanion, KPMKotlinArray<T>, KPMWifiConfTaskCompanion, KPMControllableApplianceInfo, KPMDetectableApplianceInfo, KPMFirmwareVersion, KPMWiFiDeviceModelWiFiOnlineStatus, KPMKotlinEnumCompanion, KPMKotlinEnum<E>, KPMEOSType, KPMFirmwareVersionCompanion, KPMParaStructureCompanion, KPMParaStructureRgbwType, KPMParaStructureIrValueType, KPMParaStructureRgbwAction, KPMParaStructureCurtainAction, KPMParaStructureCurtainWithLocAction, KPMParaStructureIrCmd, KPMParaStructureParaAction, KPMParaStructureRgbwActionCompanion, KPMWeekMask, KPMWeekMaskCompanion, KPMWeekMaskIndex, KPMWeekMaskIndexCompanion, KPMCmdCompanion, KPMCmd, KPMENetworkType, KPMOnOffStatusCompanion, KPMOnOffStatus, KPMProtocolVersionCompanion, KPMProtocolVersion, KPMDeviceTypeClassifyCompanion, KPMDeviceTypeSet, KPMDeviceTypeSetCompanion, KPMCommandData, KPMAddAndDelDeviceCmdCompanion, KPMConfigureCmdCompanion, KPMParaStructure, KPMControlCmdCompanion, KPMControlCmdControlAction, KPMGatewayCmdCompanion, KPMGetInfoCmdCompanion, KPMLinkageCmdCompanion, KPMLinkageCmdUserActionInfoNew, KPMDetectableApplianceStatus, KPMDefaultAction, KPMTimerCmdCompanion, KPMParserResult, KPMBaseInfoCompanion, KPMErrorCode, KPMControllableApplianceInfoCompanion, KPMControllableApplianceInfoAirQualityInfo, KPMControllableApplianceInfoAirQualityPlusInfo, KPMControllableApplianceInfoConfInfo, KPMControllableApplianceInfoIrInfo, KPMControllableApplianceInfoAirQualityInfoCompanion, KPMControllableApplianceInfoAirQualityPlusInfoCompanion, KPMControllableApplianceInfoConfInfoCompanion, KPMControllableApplianceInfoConfInfoTurnOnMode, KPMControllableApplianceInfoConfInfoTurnOnModeCompanion, KPMControllableApplianceInfoIrInfoCompanion, KPMControllableDeviceInfoCompanion, KPMDefaultActionCompanion, KPMDetectableApplianceEmergencyStatusCompanion, KPMDetectableApplianceEmergencyStatus, KPMDetectableApplianceInfoCompanion, KPMDetectableApplianceStatusCompanion, KPMDetectableDeviceInfoCompanion, KPMUserAction, KPMErrorCodeCompanion, KPMParserResultCompanion, KPMBaseInfo, KPMControllableDeviceInfo, KPMDetectableDeviceInfo, KPMTimerInfo, KPMTimerInfoCompanion, KPMTimerV1Para, KPMTimerV2Para, KPMTimerV1ApplianceActionCompanion, KPMTimerV1ApplianceAction, KPMTimerV1ParaCompanion, KPMTimerV2ParaCompanion, KPMUserActionCompanion, KPMUserActionAppliancePara, KPMUserActionApplianceParaCompanion, KPMKtor_client_coreHttpClient, KPMKtor_client_coreHttpClientConfig<T>, KPMKotlinThrowable, KPMKotlinException, KPMKotlinRuntimeException, KPMKotlinIllegalStateException, KPMKtor_client_coreHttpClientEngineConfig, KPMKtor_eventsEvents, KPMKtor_client_coreHttpReceivePipeline, KPMKtor_client_coreHttpRequestPipeline, KPMKtor_client_coreHttpResponsePipeline, KPMKtor_client_coreHttpSendPipeline, KPMKotlinx_serialization_coreSerializersModule, KPMKotlinx_serialization_coreSerialKind, KPMKotlinNothing, KPMKtor_client_coreHttpRequestData, KPMKtor_client_coreHttpResponseData, KPMKotlinx_coroutines_coreCoroutineDispatcher, KPMKtor_client_coreProxyConfig, KPMKtor_utilsAttributeKey<T>, KPMKtor_eventsEventDefinition<T>, KPMKtor_utilsPipelinePhase, KPMKtor_utilsPipeline<TSubject, TContext>, KPMKtor_client_coreHttpReceivePipelinePhases, KPMKtor_client_coreHttpResponse, KPMKotlinUnit, KPMKtor_client_coreHttpRequestPipelinePhases, KPMKtor_client_coreHttpRequestBuilder, KPMKtor_client_coreHttpResponsePipelinePhases, KPMKtor_client_coreHttpResponseContainer, KPMKtor_client_coreHttpClientCall, KPMKtor_client_coreHttpSendPipelinePhases, KPMKtor_httpUrl, KPMKtor_httpHttpMethod, KPMKtor_httpOutgoingContent, KPMKtor_httpHttpStatusCode, KPMKtor_utilsGMTDate, KPMKtor_httpHttpProtocolVersion, KPMKotlinAbstractCoroutineContextElement, KPMKotlinx_coroutines_coreCoroutineDispatcherKey, KPMKtor_httpHeadersBuilder, KPMKtor_client_coreHttpRequestBuilderCompanion, KPMKtor_httpURLBuilder, KPMKtor_utilsTypeInfo, KPMKtor_client_coreHttpClientCallCompanion, KPMKtor_httpUrlCompanion, KPMKtor_httpURLProtocol, KPMKtor_httpHttpMethodCompanion, KPMKtor_httpContentType, KPMKotlinCancellationException, KPMKtor_httpHttpStatusCodeCompanion, KPMKtor_utilsGMTDateCompanion, KPMKtor_utilsWeekDay, KPMKtor_utilsMonth, KPMKtor_httpHttpProtocolVersionCompanion, KPMKotlinAbstractCoroutineContextKey<B, E>, KPMKtor_ioMemory, KPMKtor_ioChunkBuffer, KPMKotlinByteArray, KPMKtor_ioBuffer, KPMKtor_ioByteReadPacket, KPMKtor_utilsStringValuesBuilderImpl, KPMKtor_httpURLBuilderCompanion, KPMKtor_httpURLProtocolCompanion, KPMKtor_httpHeaderValueParam, KPMKtor_httpHeaderValueWithParametersCompanion, KPMKtor_httpHeaderValueWithParameters, KPMKtor_httpContentTypeCompanion, KPMKtor_utilsWeekDayCompanion, KPMKtor_utilsMonthCompanion, KPMKtor_ioMemoryCompanion, KPMKtor_ioBufferCompanion, KPMKtor_ioChunkBufferCompanion, KPMKotlinByteIterator, KPMKtor_ioInputCompanion, KPMKtor_ioInput, KPMKtor_ioByteReadPacketCompanion, KPMKotlinKTypeProjection, KPMKotlinx_coroutines_coreAtomicDesc, KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, KPMKotlinKVariance, KPMKotlinKTypeProjectionCompanion, KPMKotlinx_coroutines_coreAtomicOp<__contravariant T>, KPMKotlinx_coroutines_coreOpDescriptor, KPMKotlinx_coroutines_coreLockFreeLinkedListNode, KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, KPMKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol KPMKotlinx_serialization_coreKSerializer, KPMKotlinComparable, KPMKotlinIterator, KPMKotlinx_serialization_coreEncoder, KPMKotlinx_serialization_coreSerialDescriptor, KPMKotlinx_serialization_coreSerializationStrategy, KPMKotlinx_serialization_coreDecoder, KPMKotlinx_serialization_coreDeserializationStrategy, KPMKotlinx_serialization_coreCompositeEncoder, KPMKotlinAnnotation, KPMKotlinx_serialization_coreCompositeDecoder, KPMKotlinx_serialization_coreSerializersModuleCollector, KPMKotlinKClass, KPMKotlinKDeclarationContainer, KPMKotlinKAnnotatedElement, KPMKotlinKClassifier;
+@protocol KPMKotlinComparable, KPMKotlinx_serialization_coreKSerializer, KPMKotlinIterator, KPMKotlinx_serialization_coreEncoder, KPMKotlinx_serialization_coreSerialDescriptor, KPMKotlinx_serialization_coreSerializationStrategy, KPMKotlinx_serialization_coreDecoder, KPMKotlinx_serialization_coreDeserializationStrategy, KPMKotlinCoroutineContext, KPMKotlinx_coroutines_coreCoroutineScope, KPMKtor_ioCloseable, KPMKtor_client_coreHttpClientEngine, KPMKtor_client_coreHttpClientEngineCapability, KPMKtor_utilsAttributes, KPMKtor_client_coreHttpClientPlugin, KPMKotlinx_serialization_coreCompositeEncoder, KPMKotlinAnnotation, KPMKotlinx_serialization_coreCompositeDecoder, KPMKotlinCoroutineContextElement, KPMKotlinCoroutineContextKey, KPMKotlinx_coroutines_coreDisposableHandle, KPMKotlinSuspendFunction2, KPMKotlinx_serialization_coreSerializersModuleCollector, KPMKotlinKClass, KPMKtor_httpHeaders, KPMKotlinx_coroutines_coreJob, KPMKotlinContinuation, KPMKotlinContinuationInterceptor, KPMKotlinx_coroutines_coreRunnable, KPMKotlinFunction, KPMKtor_httpHttpMessage, KPMKtor_ioByteReadChannel, KPMKtor_httpHttpMessageBuilder, KPMKtor_client_coreHttpRequest, KPMKotlinKDeclarationContainer, KPMKotlinKAnnotatedElement, KPMKotlinKClassifier, KPMKtor_httpParameters, KPMKotlinMapEntry, KPMKtor_utilsStringValues, KPMKotlinx_coroutines_coreChildHandle, KPMKotlinx_coroutines_coreChildJob, KPMKotlinSequence, KPMKotlinx_coroutines_coreSelectClause0, KPMKtor_ioReadSession, KPMKotlinSuspendFunction1, KPMKotlinAppendable, KPMKtor_utilsStringValuesBuilder, KPMKtor_httpParametersBuilder, KPMKotlinKType, KPMKotlinx_coroutines_coreParentJob, KPMKotlinx_coroutines_coreSelectInstance, KPMKotlinSuspendFunction0, KPMKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -145,10 +145,26 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DataTypeExtension")))
-@interface KPMDataTypeExtension : KPMBase
+__attribute__((swift_name("KMMApplication")))
+@interface KPMKMMApplication : KPMBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((swift_name("KMMContext")))
+@interface KPMKMMContext : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KmmApplicationCache")))
+@interface KPMKmmApplicationCache : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)kmmApplicationCache __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKmmApplicationCache *shared __attribute__((swift_name("shared")));
+- (void)injectApplicationApplication:(KPMKMMApplication *)application __attribute__((swift_name("injectApplication(application:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -170,21 +186,111 @@ __attribute__((swift_name("MeasureTimeKit.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KMMLogger")))
-@interface KPMKMMLogger : KPMBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) KPMKMMLoggerCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("MutableLinkList")))
+@interface KPMMutableLinkList<E> : KPMBase
+- (instancetype)initWithItems:(KPMKotlinArray<E> *)items __attribute__((swift_name("init(items:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)addFirstElement:(E _Nullable)element __attribute__((swift_name("addFirst(element:)")));
+- (void)addLastElement:(E _Nullable)element __attribute__((swift_name("addLast(element:)")));
+- (E _Nullable)getFirst __attribute__((swift_name("getFirst()")));
+- (E _Nullable)getLast __attribute__((swift_name("getLast()")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
+- (int32_t)size __attribute__((swift_name("size()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KMMLogger.Companion")))
-@interface KPMKMMLoggerCompanion : KPMBase
+__attribute__((swift_name("WifiConfTask")))
+@interface KPMWifiConfTask : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KPMWifiConfTaskCompanion *companion __attribute__((swift_name("companion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("WifiConfTask.Companion")))
+@interface KPMWifiConfTaskCompanion : KPMBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KPMKMMLoggerCompanion *shared __attribute__((swift_name("shared")));
-- (void)dMessage:(NSString * _Nullable)message __attribute__((swift_name("d(message:)")));
+@property (class, readonly, getter=shared) KPMWifiConfTaskCompanion *shared __attribute__((swift_name("shared")));
+- (void)startUDPDiscoveryOnFoundCallback:(void (^)(NSString *, NSString *, NSString * _Nullable))onFoundCallback finishedCallback:(void (^)(KPMInt *))finishedCallback __attribute__((swift_name("startUDPDiscovery(onFoundCallback:finishedCallback:)")));
+- (void)startWiFiConfigSsid:(NSString *)ssid pwd:(NSString *)pwd timeoutSeconds:(int64_t)timeoutSeconds successCallback:(void (^)(NSString *, NSString *))successCallback failureCallback:(void (^)(NSString *))failureCallback finishCallback:(void (^)(void))finishCallback __attribute__((swift_name("startWiFiConfig(ssid:pwd:timeoutSeconds:successCallback:failureCallback:finishCallback:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("WiFiDeviceModel")))
+@interface KPMWiFiDeviceModel : KPMBase
+- (instancetype)initWithMac:(NSString *)mac __attribute__((swift_name("init(mac:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) KPMMutableDictionary<NSString *, KPMControllableApplianceInfo *> *controllableApplianceInfoMap __attribute__((swift_name("controllableApplianceInfoMap")));
+@property (readonly) KPMMutableDictionary<NSString *, KPMDetectableApplianceInfo *> *detectableApplianceInfoMap __attribute__((swift_name("detectableApplianceInfoMap")));
+@property KPMFirmwareVersion *fwVersion __attribute__((swift_name("fwVersion")));
+@property (readonly) NSString *mac __attribute__((swift_name("mac")));
+@property KPMWiFiDeviceModelWiFiOnlineStatus *onlineStatus __attribute__((swift_name("onlineStatus")));
+@property NSString *sn __attribute__((swift_name("sn")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("WiFiDeviceModel.WiFiOnlineStatus")))
+@interface KPMWiFiDeviceModelWiFiOnlineStatus : KPMBase
+- (instancetype)initWithLanOnline:(BOOL)lanOnline wanOnline:(BOOL)wanOnline __attribute__((swift_name("init(lanOnline:wanOnline:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMWiFiDeviceModelWiFiOnlineStatus *)doCopyLanOnline:(BOOL)lanOnline wanOnline:(BOOL)wanOnline __attribute__((swift_name("doCopy(lanOnline:wanOnline:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)isOnline __attribute__((swift_name("isOnline()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property BOOL lanOnline __attribute__((swift_name("lanOnline")));
+@property BOOL wanOnline __attribute__((swift_name("wanOnline")));
+@end;
+
+__attribute__((swift_name("KotlinComparable")))
+@protocol KPMKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end;
+
+__attribute__((swift_name("KotlinEnum")))
+@interface KPMKotlinEnum<E> : KPMBase <KPMKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EOSType")))
+@interface KPMEOSType : KPMKotlinEnum<KPMEOSType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KPMEOSType *ios __attribute__((swift_name("ios")));
+@property (class, readonly) KPMEOSType *android __attribute__((swift_name("android")));
++ (KPMKotlinArray<KPMEOSType *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UdpClient")))
+@interface KPMUdpClient : KPMBase
+- (instancetype)initWithHostName:(NSString *)hostName port:(int32_t)port __attribute__((swift_name("init(hostName:port:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("UDP Broadcast 模式下无法接收数据")));
+- (void)disconnect __attribute__((swift_name("disconnect()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendDataMessage:(NSString *)message completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("sendData(message:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)startConnectWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("startConnect(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -193,7 +299,6 @@ __attribute__((swift_name("FirmwareVersion")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) KPMFirmwareVersionCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 - (NSString *)getString __attribute__((swift_name("getString()")));
 - (void)initialFromStringFwVersionString:(NSString *)fwVersionString __attribute__((swift_name("initialFromString(fwVersionString:)")));
 - (BOOL)isNewerThanFwVersionToCompare:(KPMFirmwareVersion *)fwVersionToCompare __attribute__((swift_name("isNewerThan(fwVersionToCompare:)")));
@@ -217,7 +322,6 @@ __attribute__((swift_name("ParaStructure")))
 @interface KPMParaStructure : KPMBase
 - (instancetype)initWithRaw:(uint64_t)raw __attribute__((swift_name("init(raw:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KPMParaStructureCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 - (int32_t)getColorRgbw:(KPMParaStructureRgbwType *)rgbw __attribute__((swift_name("getColor(rgbw:)")));
 - (uint64_t)getIRParaIr:(KPMParaStructureIrValueType *)ir __attribute__((swift_name("getIRPara(ir:)")));
 - (KPMParaStructureRgbwAction * _Nullable)getRGBWAction __attribute__((swift_name("getRGBWAction()")));
@@ -239,24 +343,6 @@ __attribute__((swift_name("ParaStructure.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMParaStructureCompanion *shared __attribute__((swift_name("shared")));
 - (id<KPMKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((swift_name("KotlinComparable")))
-@protocol KPMKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end;
-
-__attribute__((swift_name("KotlinEnum")))
-@interface KPMKotlinEnum<E> : KPMBase <KPMKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KPMKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -370,7 +456,6 @@ __attribute__((swift_name("WeekMask")))
 - (instancetype)initWithWeekMask:(KPMWeekMask *)weekMask __attribute__((swift_name("init(weekMask:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithBoolList:(NSArray<KPMBoolean *> *)boolList __attribute__((swift_name("init(boolList:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KPMWeekMaskCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 - (BOOL)getWeekMaskBitWeekMaskIndex:(KPMWeekMaskIndex *)weekMaskIndex __attribute__((swift_name("getWeekMaskBit(weekMaskIndex:)")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
 - (void)setFromBoolListBoolList:(NSArray<KPMBoolean *> *)boolList __attribute__((swift_name("setFromBoolList(boolList:)")));
@@ -504,14 +589,14 @@ __attribute__((swift_name("Cmd.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NetworkType")))
-@interface KPMNetworkType : KPMKotlinEnum<KPMNetworkType *>
+__attribute__((swift_name("ENetworkType")))
+@interface KPMENetworkType : KPMKotlinEnum<KPMENetworkType *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KPMNetworkType *lan __attribute__((swift_name("lan")));
-@property (class, readonly) KPMNetworkType *cloud __attribute__((swift_name("cloud")));
-+ (KPMKotlinArray<KPMNetworkType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) KPMENetworkType *lan __attribute__((swift_name("lan")));
+@property (class, readonly) KPMENetworkType *cloud __attribute__((swift_name("cloud")));
++ (KPMKotlinArray<KPMENetworkType *> *)values __attribute__((swift_name("values()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -713,8 +798,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CommandData")))
 @interface KPMCommandData : KPMBase
 - (instancetype)initWithSeq:(int32_t)seq cmdString:(NSString *)cmdString __attribute__((swift_name("init(seq:cmdString:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KPMCommandData *)doCopySeq:(int32_t)seq cmdString:(NSString *)cmdString __attribute__((swift_name("doCopy(seq:cmdString:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -738,12 +823,12 @@ __attribute__((swift_name("AddAndDelDeviceCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMAddAndDelDeviceCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData *)addRF433DeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("addRF433Device(sn:devTypeSet:protocolVersion:networkType:)")));
-- (KPMCommandData *)deleteControllableDeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet applianceIndex:(int32_t)applianceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("deleteControllableDevice(sn:devTypeSet:applianceIndex:protocolVersion:networkType:)")));
-- (KPMCommandData *)deleteControllableDeviceViaDeviceIndexSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet deviceIndex:(int32_t)deviceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("deleteControllableDeviceViaDeviceIndex(sn:devTypeSet:deviceIndex:protocolVersion:networkType:)")));
-- (KPMCommandData *)deleteDetectableDeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet deviceIndex:(int32_t)deviceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("deleteDetectableDevice(sn:devTypeSet:deviceIndex:protocolVersion:networkType:)")));
-- (KPMCommandData *)startScanSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("startScan(sn:protocolVersion:networkType:)")));
-- (KPMCommandData *)stopScanSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("stopScan(sn:protocolVersion:networkType:)")));
+- (KPMCommandData *)addRF433DeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("addRF433Device(sn:devTypeSet:protocolVersion:networkType:)")));
+- (KPMCommandData *)deleteControllableDeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet applianceIndex:(int32_t)applianceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("deleteControllableDevice(sn:devTypeSet:applianceIndex:protocolVersion:networkType:)")));
+- (KPMCommandData *)deleteControllableDeviceViaDeviceIndexSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet deviceIndex:(int32_t)deviceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("deleteControllableDeviceViaDeviceIndex(sn:devTypeSet:deviceIndex:protocolVersion:networkType:)")));
+- (KPMCommandData *)deleteDetectableDeviceSn:(NSString *)sn devTypeSet:(KPMDeviceTypeSet *)devTypeSet deviceIndex:(int32_t)deviceIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("deleteDetectableDevice(sn:devTypeSet:deviceIndex:protocolVersion:networkType:)")));
+- (KPMCommandData *)startScanSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("startScan(sn:protocolVersion:networkType:)")));
+- (KPMCommandData *)stopScanSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("stopScan(sn:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -761,12 +846,12 @@ __attribute__((swift_name("ConfigureCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMConfigureCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData *)modifyApplianceOnOffStatusControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo onOffStatus:(KPMOnOffStatus *)onOffStatus protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyApplianceOnOffStatus(controllableApplianceInfo:onOffStatus:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyMinimumBrightPercentControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo minBrightPercent:(int32_t)minBrightPercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyMinimumBrightPercent(controllableApplianceInfo:minBrightPercent:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyOnOffBrightAdjustSpeedControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo adjustSpeed:(int32_t)adjustSpeed protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyOnOffBrightAdjustSpeed(controllableApplianceInfo:adjustSpeed:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyRGBDeviceTurnOnParaControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo para:(KPMParaStructure *)para protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyRGBDeviceTurnOnPara(controllableApplianceInfo:para:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyTemperatureLedTurnOnParaControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo turnOnBrightPercent:(int32_t)turnOnBrightPercent turnOnTemperaturePercent:(int32_t)turnOnTemperaturePercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyTemperatureLedTurnOnPara(controllableApplianceInfo:turnOnBrightPercent:turnOnTemperaturePercent:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyTurnOnBrightPercentControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo turnOnBrightPercent:(int32_t)turnOnBrightPercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyTurnOnBrightPercent(controllableApplianceInfo:turnOnBrightPercent:protocolVersion:networkType:)")));
+- (KPMCommandData *)modifyApplianceOnOffStatusControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo onOffStatus:(KPMOnOffStatus *)onOffStatus protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyApplianceOnOffStatus(controllableApplianceInfo:onOffStatus:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyMinimumBrightPercentControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo minBrightPercent:(int32_t)minBrightPercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyMinimumBrightPercent(controllableApplianceInfo:minBrightPercent:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyOnOffBrightAdjustSpeedControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo adjustSpeed:(int32_t)adjustSpeed protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyOnOffBrightAdjustSpeed(controllableApplianceInfo:adjustSpeed:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyRGBDeviceTurnOnParaControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo para:(KPMParaStructure *)para protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyRGBDeviceTurnOnPara(controllableApplianceInfo:para:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyTemperatureLedTurnOnParaControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo turnOnBrightPercent:(int32_t)turnOnBrightPercent turnOnTemperaturePercent:(int32_t)turnOnTemperaturePercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyTemperatureLedTurnOnPara(controllableApplianceInfo:turnOnBrightPercent:turnOnTemperaturePercent:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyTurnOnBrightPercentControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo turnOnBrightPercent:(int32_t)turnOnBrightPercent protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyTurnOnBrightPercent(controllableApplianceInfo:turnOnBrightPercent:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -784,15 +869,15 @@ __attribute__((swift_name("ControlCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMControlCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData * _Nullable)activateDetectableApplianceCmdDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("activateDetectableApplianceCmd(detectableApplianceInfo:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)adjustableLightControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo para:(KPMParaStructure *)para protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("adjustableLightControlCmd(controllableApplianceInfo:para:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)controlApplianceCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("controlApplianceCmd(controllableApplianceInfo:controlAction:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)controlApplianceCmdSn:(NSString *)sn deviceType:(NSString *)deviceType jackIndex:(int32_t)jackIndex controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("controlApplianceCmd(sn:deviceType:jackIndex:controlAction:protocolVersion:networkType:)")));
-- (NSArray<KPMCommandData *> *)controlApplianceGroupCmdControllableApplianceInfoList:(NSArray<KPMControllableApplianceInfo *> *)controllableApplianceInfoList controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("controlApplianceGroupCmd(controllableApplianceInfoList:controlAction:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)curtainControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainAction:(KPMParaStructureCurtainAction *)curtainAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("curtainControlCmd(controllableApplianceInfo:curtainAction:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)curtainWithLocationActionControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainWithLocAction:(KPMParaStructureCurtainWithLocAction *)curtainWithLocAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("curtainWithLocationActionControlCmd(controllableApplianceInfo:curtainWithLocAction:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)curtainWithLocationPercentageControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainLocationPercentage:(int32_t)curtainLocationPercentage protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("curtainWithLocationPercentageControlCmd(controllableApplianceInfo:curtainLocationPercentage:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)irControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo irCmd:(KPMParaStructureIrCmd *)irCmd irIndex:(int32_t)irIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("irControlCmd(controllableApplianceInfo:irCmd:irIndex:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)activateDetectableApplianceCmdDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("activateDetectableApplianceCmd(detectableApplianceInfo:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)adjustableLightControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo para:(KPMParaStructure *)para protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("adjustableLightControlCmd(controllableApplianceInfo:para:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)controlApplianceCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("controlApplianceCmd(controllableApplianceInfo:controlAction:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)controlApplianceCmdSn:(NSString *)sn deviceType:(NSString *)deviceType jackIndex:(int32_t)jackIndex controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("controlApplianceCmd(sn:deviceType:jackIndex:controlAction:protocolVersion:networkType:)")));
+- (NSArray<KPMCommandData *> *)controlApplianceGroupCmdControllableApplianceInfoList:(NSArray<KPMControllableApplianceInfo *> *)controllableApplianceInfoList controlAction:(KPMControlCmdControlAction *)controlAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("controlApplianceGroupCmd(controllableApplianceInfoList:controlAction:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)curtainControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainAction:(KPMParaStructureCurtainAction *)curtainAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("curtainControlCmd(controllableApplianceInfo:curtainAction:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)curtainWithLocationActionControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainWithLocAction:(KPMParaStructureCurtainWithLocAction *)curtainWithLocAction protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("curtainWithLocationActionControlCmd(controllableApplianceInfo:curtainWithLocAction:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)curtainWithLocationPercentageControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo curtainLocationPercentage:(int32_t)curtainLocationPercentage protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("curtainWithLocationPercentageControlCmd(controllableApplianceInfo:curtainLocationPercentage:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)irControlCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo irCmd:(KPMParaStructureIrCmd *)irCmd irIndex:(int32_t)irIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("irControlCmd(controllableApplianceInfo:irCmd:irIndex:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -821,7 +906,7 @@ __attribute__((swift_name("GatewayCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMGatewayCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData *)getGatewayFirmwareVersionCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("getGatewayFirmwareVersionCmd(sn:protocolVersion:networkType:)")));
+- (KPMCommandData *)getGatewayFirmwareVersionCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("getGatewayFirmwareVersionCmd(sn:protocolVersion:networkType:)")));
 - (KPMCommandData *)startGatewayFirmwareUpgrade __attribute__((swift_name("startGatewayFirmwareUpgrade()")));
 @end;
 
@@ -840,8 +925,8 @@ __attribute__((swift_name("GetInfoCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMGetInfoCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData *)getAllInfoCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("getAllInfoCmd(sn:protocolVersion:networkType:)")));
-- (KPMCommandData *)getApplianceStatusCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("getApplianceStatusCmd(controllableApplianceInfo:protocolVersion:networkType:)")));
+- (KPMCommandData *)getAllInfoCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("getAllInfoCmd(sn:protocolVersion:networkType:)")));
+- (KPMCommandData *)getApplianceStatusCmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("getApplianceStatusCmd(controllableApplianceInfo:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -859,22 +944,22 @@ __attribute__((swift_name("LinkageCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMLinkageCmdCompanion *shared __attribute__((swift_name("shared")));
-- (NSArray<KPMCommandData *> *)addUserActionListCmdSn:(NSString *)sn bindApplianceInfoList:(NSArray<KPMLinkageCmdUserActionInfoNew *> *)bindApplianceInfoList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("addUserActionListCmd(sn:bindApplianceInfoList:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)bindUserActionListAndDetectableApplianceStatusListCmdDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("bindUserActionListAndDetectableApplianceStatusListCmd(detectableApplianceInfo:userActionIndexList:detectableApplianceStatusList:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyDetectableDeviceEmergencyStatusDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo emergencyStatus:(BOOL)emergencyStatus protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceEmergencyStatus(detectableApplianceInfo:emergencyStatus:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyDetectableDeviceStatusDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo status:(BOOL)status protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceStatus(detectableApplianceInfo:status:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyDetectableDeviceTriggeredDefaultActionDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo defaultActionList:(NSArray<KPMDefaultAction *> *)defaultActionList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceTriggeredDefaultAction(detectableApplianceInfo:defaultActionList:protocolVersion:networkType:)")));
-- (KPMCommandData * _Nullable)modifyDetectableDeviceTriggeredDelayDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo delaySeconds:(int32_t)delaySeconds protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceTriggeredDelay(detectableApplianceInfo:delaySeconds:protocolVersion:networkType:)")));
+- (NSArray<KPMCommandData *> *)addUserActionListCmdSn:(NSString *)sn bindApplianceInfoList:(NSArray<KPMLinkageCmdUserActionInfoNew *> *)bindApplianceInfoList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("addUserActionListCmd(sn:bindApplianceInfoList:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)bindUserActionListAndDetectableApplianceStatusListCmdDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("bindUserActionListAndDetectableApplianceStatusListCmd(detectableApplianceInfo:userActionIndexList:detectableApplianceStatusList:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyDetectableDeviceEmergencyStatusDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo emergencyStatus:(BOOL)emergencyStatus protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceEmergencyStatus(detectableApplianceInfo:emergencyStatus:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyDetectableDeviceStatusDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo status:(BOOL)status protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceStatus(detectableApplianceInfo:status:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyDetectableDeviceTriggeredDefaultActionDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo defaultActionList:(NSArray<KPMDefaultAction *> *)defaultActionList protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceTriggeredDefaultAction(detectableApplianceInfo:defaultActionList:protocolVersion:networkType:)")));
+- (KPMCommandData * _Nullable)modifyDetectableDeviceTriggeredDelayDetectableApplianceInfo:(KPMDetectableApplianceInfo *)detectableApplianceInfo delaySeconds:(int32_t)delaySeconds protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyDetectableDeviceTriggeredDelay(detectableApplianceInfo:delaySeconds:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LinkageCmd.UserActionInfoNew")))
 @interface KPMLinkageCmdUserActionInfoNew : KPMBase
 - (instancetype)initWithDevTypeSet:(KPMDeviceTypeSet *)devTypeSet applianceIndex:(int32_t)applianceIndex action:(BOOL)action para:(KPMParaStructure *)para __attribute__((swift_name("init(devTypeSet:applianceIndex:action:para:)"))) __attribute__((objc_designated_initializer));
-- (KPMDeviceTypeSet *)component1 __attribute__((swift_name("component1()")));
-- (int32_t)component2 __attribute__((swift_name("component2()")));
-- (BOOL)component3 __attribute__((swift_name("component3()")));
-- (KPMParaStructure *)component4 __attribute__((swift_name("component4()")));
+- (KPMDeviceTypeSet *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMParaStructure *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KPMLinkageCmdUserActionInfoNew *)doCopyDevTypeSet:(KPMDeviceTypeSet *)devTypeSet applianceIndex:(int32_t)applianceIndex action:(BOOL)action para:(KPMParaStructure *)para __attribute__((swift_name("doCopy(devTypeSet:applianceIndex:action:para:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -900,13 +985,13 @@ __attribute__((swift_name("TimerCmd.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KPMTimerCmdCompanion *shared __attribute__((swift_name("shared")));
-- (KPMCommandData *)addTimerV1CmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo timestamp:(int64_t)timestamp enable:(BOOL)enable action:(BOOL)action weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("addTimerV1Cmd(controllableApplianceInfo:timestamp:enable:action:weekMaskFromUserTimezone:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
-- (KPMCommandData *)addTimerV2CmdSn:(NSString *)sn userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList timestamp:(int64_t)timestamp enable:(BOOL)enable weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("addTimerV2Cmd(sn:userActionIndexList:detectableApplianceStatusList:timestamp:enable:weekMaskFromUserTimezone:protocolVersion:networkType:)")));
-- (KPMCommandData *)deleteTimerV1CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("deleteTimerV1Cmd(sn:timerIndex:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
-- (KPMCommandData *)deleteTimerV2CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("deleteTimerV2Cmd(sn:timerIndex:protocolVersion:networkType:)")));
-- (KPMCommandData *)getAllTimerCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("getAllTimerCmd(sn:protocolVersion:networkType:)")));
-- (KPMCommandData *)modifyTimerV1CmdTimerIndex:(int32_t)timerIndex controllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo timestamp:(int64_t)timestamp enable:(BOOL)enable action:(BOOL)action weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyTimerV1Cmd(timerIndex:controllableApplianceInfo:timestamp:enable:action:weekMaskFromUserTimezone:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
-- (KPMCommandData *)modifyTimerV2CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList timestamp:(int64_t)timestamp enable:(BOOL)enable weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMNetworkType *)networkType __attribute__((swift_name("modifyTimerV2Cmd(sn:timerIndex:userActionIndexList:detectableApplianceStatusList:timestamp:enable:weekMaskFromUserTimezone:protocolVersion:networkType:)")));
+- (KPMCommandData *)addTimerV1CmdControllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo timestamp:(int64_t)timestamp enable:(BOOL)enable action:(BOOL)action weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("addTimerV1Cmd(controllableApplianceInfo:timestamp:enable:action:weekMaskFromUserTimezone:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
+- (KPMCommandData *)addTimerV2CmdSn:(NSString *)sn userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList timestamp:(int64_t)timestamp enable:(BOOL)enable weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("addTimerV2Cmd(sn:userActionIndexList:detectableApplianceStatusList:timestamp:enable:weekMaskFromUserTimezone:protocolVersion:networkType:)")));
+- (KPMCommandData *)deleteTimerV1CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("deleteTimerV1Cmd(sn:timerIndex:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
+- (KPMCommandData *)deleteTimerV2CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("deleteTimerV2Cmd(sn:timerIndex:protocolVersion:networkType:)")));
+- (KPMCommandData *)getAllTimerCmdSn:(NSString *)sn protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("getAllTimerCmd(sn:protocolVersion:networkType:)")));
+- (KPMCommandData *)modifyTimerV1CmdTimerIndex:(int32_t)timerIndex controllableApplianceInfo:(KPMControllableApplianceInfo *)controllableApplianceInfo timestamp:(int64_t)timestamp enable:(BOOL)enable action:(BOOL)action weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyTimerV1Cmd(timerIndex:controllableApplianceInfo:timestamp:enable:action:weekMaskFromUserTimezone:protocolVersion:networkType:)"))) __attribute__((deprecated("TimerV1 已弃用")));
+- (KPMCommandData *)modifyTimerV2CmdSn:(NSString *)sn timerIndex:(int32_t)timerIndex userActionIndexList:(NSArray<KPMInt *> *)userActionIndexList detectableApplianceStatusList:(NSArray<KPMDetectableApplianceStatus *> *)detectableApplianceStatusList timestamp:(int64_t)timestamp enable:(BOOL)enable weekMaskFromUserTimezone:(KPMWeekMask *)weekMaskFromUserTimezone protocolVersion:(KPMProtocolVersion *)protocolVersion networkType:(KPMENetworkType *)networkType __attribute__((swift_name("modifyTimerV2Cmd(sn:timerIndex:userActionIndexList:detectableApplianceStatusList:timestamp:enable:weekMaskFromUserTimezone:protocolVersion:networkType:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -914,24 +999,13 @@ __attribute__((swift_name("Parser")))
 @interface KPMParser : KPMBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) KPMParserCompanion *companion __attribute__((swift_name("companion")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Parser.Companion")))
-@interface KPMParserCompanion : KPMBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KPMParserCompanion *shared __attribute__((swift_name("shared")));
-- (KPMParserResult * _Nullable)parseMessage:(NSString *)message __attribute__((swift_name("parse(message:)")));
+- (NSArray<KPMParserResult *> *)parseMessage:(NSString *)message __attribute__((swift_name("parse(message:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BaseInfo")))
 @interface KPMBaseInfo : KPMBase
 @property (class, readonly, getter=companion) KPMBaseInfoCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 @property KPMCmd * _Nullable cmd __attribute__((swift_name("cmd")));
 @property KPMErrorCode *errorCode __attribute__((swift_name("errorCode")));
 @property KPMFirmwareVersion * _Nullable fwVersion __attribute__((swift_name("fwVersion")));
@@ -1088,7 +1162,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ControllableDeviceInfo")))
 @interface KPMControllableDeviceInfo : KPMBase
 @property (class, readonly, getter=companion) KPMControllableDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 @property NSArray<KPMDeviceTypeSet *> * _Nullable installedControllableDeviceTypeList __attribute__((swift_name("installedControllableDeviceTypeList")));
 @property NSArray<KPMControllableApplianceInfoAirQualityInfo *> * _Nullable updatedAirQualityInfoList __attribute__((swift_name("updatedAirQualityInfoList")));
 @property NSArray<KPMControllableApplianceInfoAirQualityPlusInfo *> * _Nullable updatedAirQualityPlusInfoList __attribute__((swift_name("updatedAirQualityPlusInfoList")));
@@ -1135,8 +1208,8 @@ __attribute__((swift_name("DetectableApplianceEmergencyStatus")))
 @interface KPMDetectableApplianceEmergencyStatus : KPMBase
 - (instancetype)initWithApplianceIndex:(int32_t)applianceIndex emergencyStatus:(BOOL)emergencyStatus __attribute__((swift_name("init(applianceIndex:emergencyStatus:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KPMDetectableApplianceEmergencyStatusCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (BOOL)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KPMDetectableApplianceEmergencyStatus *)doCopyApplianceIndex:(int32_t)applianceIndex emergencyStatus:(BOOL)emergencyStatus __attribute__((swift_name("doCopy(applianceIndex:emergencyStatus:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1189,8 +1262,8 @@ __attribute__((swift_name("DetectableApplianceStatus")))
 @interface KPMDetectableApplianceStatus : KPMBase
 - (instancetype)initWithApplianceIndex:(int32_t)applianceIndex status:(BOOL)status __attribute__((swift_name("init(applianceIndex:status:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KPMDetectableApplianceStatusCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (BOOL)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KPMDetectableApplianceStatus *)doCopyApplianceIndex:(int32_t)applianceIndex status:(BOOL)status __attribute__((swift_name("doCopy(applianceIndex:status:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1213,7 +1286,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DetectableDeviceInfo")))
 @interface KPMDetectableDeviceInfo : KPMBase
 @property (class, readonly, getter=companion) KPMDetectableDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 @property NSArray<KPMInt *> * _Nullable installedDetectableApplianceIndexList __attribute__((swift_name("installedDetectableApplianceIndexList")));
 @property NSArray<KPMInt *> * _Nullable installedUserActionIndexList __attribute__((swift_name("installedUserActionIndexList")));
 @property NSArray<KPMDetectableApplianceEmergencyStatus *> * _Nullable updatedDetectableApplianceEmergencyStatusList __attribute__((swift_name("updatedDetectableApplianceEmergencyStatusList")));
@@ -1262,7 +1334,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ParserResult")))
 @interface KPMParserResult : KPMBase
 @property (class, readonly, getter=companion) KPMParserResultCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 - (NSString *)stringify __attribute__((swift_name("stringify()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property KPMBaseInfo * _Nullable baseInfo __attribute__((swift_name("baseInfo")));
@@ -1285,7 +1356,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TimerInfo")))
 @interface KPMTimerInfo : KPMBase
 @property (class, readonly, getter=companion) KPMTimerInfoCompanion *companion __attribute__((swift_name("companion")));
-- (void)freezeSelf __attribute__((swift_name("freezeSelf()")));
 @property NSArray<KPMInt *> * _Nullable deletedTimerIndexList __attribute__((swift_name("deletedTimerIndexList")));
 @property NSArray<KPMInt *> * _Nullable installedTimerIndexList __attribute__((swift_name("installedTimerIndexList")));
 @property NSArray<KPMTimerV1Para *> * _Nullable timerV1ParaList __attribute__((swift_name("timerV1ParaList"))) __attribute__((deprecated("timerV1 已弃用")));
@@ -1307,8 +1377,8 @@ __attribute__((swift_name("TimerV1ApplianceAction")))
 @interface KPMTimerV1ApplianceAction : KPMBase
 - (instancetype)initWithApplianceIndex:(int32_t)applianceIndex action:(BOOL)action __attribute__((swift_name("init(applianceIndex:action:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) KPMTimerV1ApplianceActionCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (BOOL)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KPMTimerV1ApplianceAction *)doCopyApplianceIndex:(int32_t)applianceIndex action:(BOOL)action __attribute__((swift_name("doCopy(applianceIndex:action:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1430,7 +1500,67 @@ __attribute__((swift_name("KotlinArray")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformKt")))
 @interface KPMPlatformKt : KPMBase
-+ (id _Nullable)freezeT:(id _Nullable)t __attribute__((swift_name("freeze(t:)")));
++ (KPMKtor_client_coreHttpClient *)httpClientConfig:(void (^)(KPMKtor_client_coreHttpClientConfig<id> *))config __attribute__((swift_name("httpClient(config:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface KPMKotlinEnumCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("KotlinThrowable")))
+@interface KPMKotlinThrowable : KPMBase
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (KPMKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+- (NSError *)asError __attribute__((swift_name("asError()")));
+@end;
+
+__attribute__((swift_name("KotlinException")))
+@interface KPMKotlinException : KPMKotlinThrowable
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface KPMKotlinRuntimeException : KPMKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface KPMKotlinIllegalStateException : KPMKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("KotlinCancellationException")))
+@interface KPMKotlinCancellationException : KPMKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -1452,20 +1582,59 @@ __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @required
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface KPMKotlinEnumCompanion : KPMBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KPMKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol KPMKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol KPMKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<KPMKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((swift_name("Ktor_ioCloseable")))
+@protocol KPMKtor_ioCloseable
+@required
+- (void)close __attribute__((swift_name("close()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClient")))
+@interface KPMKtor_client_coreHttpClient : KPMBase <KPMKotlinx_coroutines_coreCoroutineScope, KPMKtor_ioCloseable>
+- (instancetype)initWithEngine:(id<KPMKtor_client_coreHttpClientEngine>)engine userConfig:(KPMKtor_client_coreHttpClientConfig<KPMKtor_client_coreHttpClientEngineConfig *> *)userConfig __attribute__((swift_name("init(engine:userConfig:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (KPMKtor_client_coreHttpClient *)configBlock:(void (^)(KPMKtor_client_coreHttpClientConfig<id> *))block __attribute__((swift_name("config(block:)")));
+- (BOOL)isSupportedCapability:(id<KPMKtor_client_coreHttpClientEngineCapability>)capability __attribute__((swift_name("isSupported(capability:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) id<KPMKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) id<KPMKtor_client_coreHttpClientEngine> engine __attribute__((swift_name("engine")));
+@property (readonly) KPMKtor_client_coreHttpClientEngineConfig *engineConfig __attribute__((swift_name("engineConfig")));
+@property (readonly) KPMKtor_eventsEvents *monitor __attribute__((swift_name("monitor")));
+@property (readonly) KPMKtor_client_coreHttpReceivePipeline *receivePipeline __attribute__((swift_name("receivePipeline")));
+@property (readonly) KPMKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
+@property (readonly) KPMKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
+@property (readonly) KPMKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientConfig")))
+@interface KPMKtor_client_coreHttpClientConfig<T> : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (KPMKtor_client_coreHttpClientConfig<T> *)clone __attribute__((swift_name("clone()")));
+- (void)engineBlock:(void (^)(T))block __attribute__((swift_name("engine(block:)")));
+- (void)installClient:(KPMKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
+- (void)installPlugin:(id<KPMKtor_client_coreHttpClientPlugin>)plugin configure:(void (^)(id))configure __attribute__((swift_name("install(plugin:configure:)")));
+- (void)installKey:(NSString *)key block:(void (^)(KPMKtor_client_coreHttpClient *))block __attribute__((swift_name("install(key:block:)")));
+- (void)plusAssignOther:(KPMKtor_client_coreHttpClientConfig<T> *)other __attribute__((swift_name("plusAssign(other:)")));
+@property BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@property BOOL expectSuccess __attribute__((swift_name("expectSuccess")));
+@property BOOL followRedirects __attribute__((swift_name("followRedirects")));
+@property BOOL useDefaultTransformers __attribute__((swift_name("useDefaultTransformers")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -1529,6 +1698,141 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 @property (readonly) KPMKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end;
 
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol KPMKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<KPMKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<KPMKotlinCoroutineContextElement> _Nullable)getKey:(id<KPMKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<KPMKotlinCoroutineContext>)minusKeyKey:(id<KPMKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<KPMKotlinCoroutineContext>)plusContext:(id<KPMKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
+@protocol KPMKtor_client_coreHttpClientEngine <KPMKotlinx_coroutines_coreCoroutineScope, KPMKtor_ioCloseable>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)executeData:(KPMKtor_client_coreHttpRequestData *)data completionHandler:(void (^)(KPMKtor_client_coreHttpResponseData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(data:completionHandler:)")));
+- (void)installClient:(KPMKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
+@property (readonly) KPMKtor_client_coreHttpClientEngineConfig *config __attribute__((swift_name("config")));
+@property (readonly) KPMKotlinx_coroutines_coreCoroutineDispatcher *dispatcher __attribute__((swift_name("dispatcher")));
+@property (readonly) NSSet<id<KPMKtor_client_coreHttpClientEngineCapability>> *supportedCapabilities __attribute__((swift_name("supportedCapabilities")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientEngineConfig")))
+@interface KPMKtor_client_coreHttpClientEngineConfig : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property BOOL pipelining __attribute__((swift_name("pipelining")));
+@property KPMKtor_client_coreProxyConfig * _Nullable proxy __attribute__((swift_name("proxy")));
+@property int32_t threadsCount __attribute__((swift_name("threadsCount")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientEngineCapability")))
+@protocol KPMKtor_client_coreHttpClientEngineCapability
+@required
+@end;
+
+__attribute__((swift_name("Ktor_utilsAttributes")))
+@protocol KPMKtor_utilsAttributes
+@required
+- (id)computeIfAbsentKey:(KPMKtor_utilsAttributeKey<id> *)key block:(id (^)(void))block __attribute__((swift_name("computeIfAbsent(key:block:)")));
+- (BOOL)containsKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("contains(key:)")));
+- (id)getKey_:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("get(key_:)")));
+- (id _Nullable)getOrNullKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getOrNull(key:)")));
+- (void)putKey:(KPMKtor_utilsAttributeKey<id> *)key value:(id)value __attribute__((swift_name("put(key:value:)")));
+- (void)removeKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("remove(key:)")));
+- (id)takeKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("take(key:)")));
+- (id _Nullable)takeOrNullKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("takeOrNull(key:)")));
+@property (readonly) NSArray<KPMKtor_utilsAttributeKey<id> *> *allKeys __attribute__((swift_name("allKeys")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_eventsEvents")))
+@interface KPMKtor_eventsEvents : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)raiseDefinition:(KPMKtor_eventsEventDefinition<id> *)definition value:(id _Nullable)value __attribute__((swift_name("raise(definition:value:)")));
+- (id<KPMKotlinx_coroutines_coreDisposableHandle>)subscribeDefinition:(KPMKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("subscribe(definition:handler:)")));
+- (void)unsubscribeDefinition:(KPMKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("unsubscribe(definition:handler:)")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsPipeline")))
+@interface KPMKtor_utilsPipeline<TSubject, TContext> : KPMBase
+- (instancetype)initWithPhase:(KPMKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KPMKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhases:(KPMKotlinArray<KPMKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer));
+- (void)addPhasePhase:(KPMKtor_utilsPipelinePhase *)phase __attribute__((swift_name("addPhase(phase:)")));
+- (void)afterIntercepted __attribute__((swift_name("afterIntercepted()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)executeContext:(TContext)context subject:(TSubject)subject completionHandler:(void (^)(TSubject _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(context:subject:completionHandler:)")));
+- (void)insertPhaseAfterReference:(KPMKtor_utilsPipelinePhase *)reference phase:(KPMKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseAfter(reference:phase:)")));
+- (void)insertPhaseBeforeReference:(KPMKtor_utilsPipelinePhase *)reference phase:(KPMKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseBefore(reference:phase:)")));
+- (void)interceptPhase:(KPMKtor_utilsPipelinePhase *)phase block:(id<KPMKotlinSuspendFunction2>)block __attribute__((swift_name("intercept(phase:block:)")));
+- (NSArray<id<KPMKotlinSuspendFunction2>> *)interceptorsForPhasePhase:(KPMKtor_utilsPipelinePhase *)phase __attribute__((swift_name("interceptorsForPhase(phase:)")));
+- (void)mergeFrom:(KPMKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("merge(from:)")));
+- (void)mergePhasesFrom:(KPMKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("mergePhases(from:)")));
+- (void)resetFromFrom:(KPMKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("resetFrom(from:)")));
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) NSArray<KPMKtor_utilsPipelinePhase *> *items __attribute__((swift_name("items")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline")))
+@interface KPMKtor_client_coreHttpReceivePipeline : KPMKtor_utilsPipeline<KPMKtor_client_coreHttpResponse *, KPMKotlinUnit *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KPMKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KPMKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KPMKotlinArray<KPMKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpReceivePipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline")))
+@interface KPMKtor_client_coreHttpRequestPipeline : KPMKtor_utilsPipeline<id, KPMKtor_client_coreHttpRequestBuilder *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KPMKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KPMKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KPMKotlinArray<KPMKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpRequestPipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline")))
+@interface KPMKtor_client_coreHttpResponsePipeline : KPMKtor_utilsPipeline<KPMKtor_client_coreHttpResponseContainer *, KPMKtor_client_coreHttpClientCall *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KPMKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KPMKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KPMKotlinArray<KPMKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpResponsePipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
+@interface KPMKtor_client_coreHttpSendPipeline : KPMKtor_utilsPipeline<id, KPMKtor_client_coreHttpRequestBuilder *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KPMKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KPMKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KPMKotlinArray<KPMKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientPlugin")))
+@protocol KPMKtor_client_coreHttpClientPlugin
+@required
+- (void)installPlugin:(id)plugin scope:(KPMKtor_client_coreHttpClient *)scope __attribute__((swift_name("install(plugin:scope:)")));
+- (id)prepareBlock:(void (^)(id))block __attribute__((swift_name("prepare(block:)")));
+@property (readonly) KPMKtor_utilsAttributeKey<id> *key __attribute__((swift_name("key")));
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol KPMKotlinx_serialization_coreCompositeEncoder
 @required
@@ -1551,8 +1855,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
 @interface KPMKotlinx_serialization_coreSerializersModule : KPMBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)dumpToCollector:(id<KPMKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
 - (id<KPMKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<KPMKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<KPMKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
 - (id<KPMKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<KPMKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
@@ -1566,8 +1868,6 @@ __attribute__((swift_name("KotlinAnnotation")))
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
 @interface KPMKotlinx_serialization_coreSerialKind : KPMBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end;
@@ -1597,6 +1897,279 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
 @interface KPMKotlinNothing : KPMBase
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol KPMKotlinCoroutineContextElement <KPMKotlinCoroutineContext>
+@required
+@property (readonly) id<KPMKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol KPMKotlinCoroutineContextKey
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestData")))
+@interface KPMKtor_client_coreHttpRequestData : KPMBase
+- (instancetype)initWithUrl:(KPMKtor_httpUrl *)url method:(KPMKtor_httpHttpMethod *)method headers:(id<KPMKtor_httpHeaders>)headers body:(KPMKtor_httpOutgoingContent *)body executionContext:(id<KPMKotlinx_coroutines_coreJob>)executionContext attributes:(id<KPMKtor_utilsAttributes>)attributes __attribute__((swift_name("init(url:method:headers:body:executionContext:attributes:)"))) __attribute__((objc_designated_initializer));
+- (id _Nullable)getCapabilityOrNullKey:(id<KPMKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) KPMKtor_httpOutgoingContent *body __attribute__((swift_name("body")));
+@property (readonly) id<KPMKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
+@property (readonly) id<KPMKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KPMKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) KPMKtor_httpUrl *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponseData")))
+@interface KPMKtor_client_coreHttpResponseData : KPMBase
+- (instancetype)initWithStatusCode:(KPMKtor_httpHttpStatusCode *)statusCode requestTime:(KPMKtor_utilsGMTDate *)requestTime headers:(id<KPMKtor_httpHeaders>)headers version:(KPMKtor_httpHttpProtocolVersion *)version body:(id)body callContext:(id<KPMKotlinCoroutineContext>)callContext __attribute__((swift_name("init(statusCode:requestTime:headers:version:body:callContext:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id body __attribute__((swift_name("body")));
+@property (readonly) id<KPMKotlinCoroutineContext> callContext __attribute__((swift_name("callContext")));
+@property (readonly) id<KPMKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KPMKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) KPMKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) KPMKtor_httpHttpStatusCode *statusCode __attribute__((swift_name("statusCode")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface KPMKotlinAbstractCoroutineContextElement : KPMBase <KPMKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<KPMKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<KPMKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol KPMKotlinContinuationInterceptor <KPMKotlinCoroutineContextElement>
+@required
+- (id<KPMKotlinContinuation>)interceptContinuationContinuation:(id<KPMKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<KPMKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface KPMKotlinx_coroutines_coreCoroutineDispatcher : KPMKotlinAbstractCoroutineContextElement <KPMKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<KPMKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<KPMKotlinCoroutineContext>)context block:(id<KPMKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<KPMKotlinCoroutineContext>)context block:(id<KPMKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<KPMKotlinContinuation>)interceptContinuationContinuation:(id<KPMKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<KPMKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (KPMKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (KPMKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(KPMKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<KPMKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreProxyConfig")))
+@interface KPMKtor_client_coreProxyConfig : KPMBase
+- (instancetype)initWithUrl:(KPMKtor_httpUrl *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKtor_httpUrl *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsAttributeKey")))
+@interface KPMKtor_utilsAttributeKey<T> : KPMBase
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("Ktor_eventsEventDefinition")))
+@interface KPMKtor_eventsEventDefinition<T> : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol KPMKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsPipelinePhase")))
+@interface KPMKtor_utilsPipelinePhase : KPMBase
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol KPMKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction2")))
+@protocol KPMKotlinSuspendFunction2 <KPMKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline.Phases")))
+@interface KPMKtor_client_coreHttpReceivePipelinePhases : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpReceivePipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) KPMKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@end;
+
+__attribute__((swift_name("Ktor_httpHttpMessage")))
+@protocol KPMKtor_httpHttpMessage
+@required
+@property (readonly) id<KPMKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpResponse")))
+@interface KPMKtor_client_coreHttpResponse : KPMBase <KPMKtor_httpHttpMessage, KPMKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) id<KPMKtor_ioByteReadChannel> content __attribute__((swift_name("content")));
+@property (readonly) KPMKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) KPMKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) KPMKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface KPMKotlinUnit : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKotlinUnit *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline.Phases")))
+@interface KPMKtor_client_coreHttpRequestPipelinePhases : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpRequestPipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Render __attribute__((swift_name("Render")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Send __attribute__((swift_name("Send")));
+@property (readonly) KPMKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
+@end;
+
+__attribute__((swift_name("Ktor_httpHttpMessageBuilder")))
+@protocol KPMKtor_httpHttpMessageBuilder
+@required
+@property (readonly) KPMKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder")))
+@interface KPMKtor_client_coreHttpRequestBuilder : KPMBase <KPMKtor_httpHttpMessageBuilder>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpRequestBuilderCompanion *companion __attribute__((swift_name("companion")));
+- (KPMKtor_client_coreHttpRequestData *)build __attribute__((swift_name("build()")));
+- (id _Nullable)getCapabilityOrNullKey:(id<KPMKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
+- (void)setAttributesBlock:(void (^)(id<KPMKtor_utilsAttributes>))block __attribute__((swift_name("setAttributes(block:)")));
+- (void)setCapabilityKey:(id<KPMKtor_client_coreHttpClientEngineCapability>)key capability:(id)capability __attribute__((swift_name("setCapability(key:capability:)")));
+- (KPMKtor_client_coreHttpRequestBuilder *)takeFromBuilder:(KPMKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFrom(builder:)")));
+- (KPMKtor_client_coreHttpRequestBuilder *)takeFromWithExecutionContextBuilder:(KPMKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFromWithExecutionContext(builder:)")));
+- (void)urlBlock:(void (^)(KPMKtor_httpURLBuilder *, KPMKtor_httpURLBuilder *))block __attribute__((swift_name("url(block:)")));
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property id body __attribute__((swift_name("body")));
+@property KPMKtor_utilsTypeInfo * _Nullable bodyType __attribute__((swift_name("bodyType")));
+@property (readonly) id<KPMKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
+@property (readonly) KPMKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
+@property KPMKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) KPMKtor_httpURLBuilder *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline.Phases")))
+@interface KPMKtor_client_coreHttpResponsePipelinePhases : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpResponsePipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Parse __attribute__((swift_name("Parse")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
+@property (readonly) KPMKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
+@interface KPMKtor_client_coreHttpResponseContainer : KPMBase
+- (instancetype)initWithExpectedType:(KPMKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("init(expectedType:response:)"))) __attribute__((objc_designated_initializer));
+- (KPMKtor_utilsTypeInfo *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_client_coreHttpResponseContainer *)doCopyExpectedType:(KPMKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("doCopy(expectedType:response:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKtor_utilsTypeInfo *expectedType __attribute__((swift_name("expectedType")));
+@property (readonly) id response __attribute__((swift_name("response")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
+@interface KPMKtor_client_coreHttpClientCall : KPMBase <KPMKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithClient:(KPMKtor_client_coreHttpClient *)client requestData:(KPMKtor_client_coreHttpRequestData *)requestData responseData:(KPMKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithClient:(KPMKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyInfo:(KPMKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getResponseContentWithCompletionHandler:(void (^)(id<KPMKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) KPMKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@property (readonly) id<KPMKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property id<KPMKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
+@property KPMKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
+@interface KPMKtor_client_coreHttpSendPipelinePhases : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpSendPipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Engine __attribute__((swift_name("Engine")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Monitoring __attribute__((swift_name("Monitoring")));
+@property (readonly) KPMKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
+@property (readonly) KPMKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
@@ -1631,6 +2204,1201 @@ __attribute__((swift_name("KotlinKClass")))
 - (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
 @property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl")))
+@interface KPMKtor_httpUrl : KPMBase
+@property (class, readonly, getter=companion) KPMKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
+@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
+@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
+@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
+@property (readonly) NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<KPMKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
+@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
+@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property (readonly) int32_t port __attribute__((swift_name("port")));
+@property (readonly) KPMKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
+@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod")))
+@interface KPMKtor_httpHttpMethod : KPMBase
+- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsStringValues")))
+@protocol KPMKtor_utilsStringValues
+@required
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<KPMKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end;
+
+__attribute__((swift_name("Ktor_httpHeaders")))
+@protocol KPMKtor_httpHeaders <KPMKtor_utilsStringValues>
+@required
+@end;
+
+__attribute__((swift_name("Ktor_httpOutgoingContent")))
+@interface KPMKtor_httpOutgoingContent : KPMBase
+- (id _Nullable)getPropertyKey:(KPMKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)setPropertyKey:(KPMKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
+- (id<KPMKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
+@property (readonly) KPMLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
+@property (readonly) KPMKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
+@property (readonly) id<KPMKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KPMKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol KPMKotlinx_coroutines_coreJob <KPMKotlinCoroutineContextElement>
+@required
+- (id<KPMKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<KPMKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(KPMKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (KPMKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<KPMKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KPMKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<KPMKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(KPMKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<KPMKotlinx_coroutines_coreJob>)plusOther_:(id<KPMKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<KPMKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<KPMKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode")))
+@interface KPMKtor_httpHttpStatusCode : KPMBase
+- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
+- (KPMKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
+@property (readonly) int32_t value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate")))
+@interface KPMKtor_utilsGMTDate : KPMBase <KPMKotlinComparable>
+@property (class, readonly, getter=companion) KPMKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(KPMKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(KPMKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(KPMKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
+@property (readonly) KPMKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
+@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
+@property (readonly) int32_t hours __attribute__((swift_name("hours")));
+@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
+@property (readonly) KPMKtor_utilsMonth *month __attribute__((swift_name("month")));
+@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@property (readonly) int32_t year __attribute__((swift_name("year")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
+@interface KPMKtor_httpHttpProtocolVersion : KPMBase
+- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t major __attribute__((swift_name("major")));
+@property (readonly) int32_t minor __attribute__((swift_name("minor")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("KotlinContinuation")))
+@protocol KPMKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<KPMKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface KPMKotlinAbstractCoroutineContextKey<B, E> : KPMBase <KPMKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<KPMKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<KPMKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface KPMKotlinx_coroutines_coreCoroutineDispatcherKey : KPMKotlinAbstractCoroutineContextKey<id<KPMKotlinContinuationInterceptor>, KPMKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<KPMKotlinCoroutineContextKey>)baseKey safeCast:(id<KPMKotlinCoroutineContextElement> _Nullable (^)(id<KPMKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol KPMKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end;
+
+__attribute__((swift_name("Ktor_ioByteReadChannel")))
+@protocol KPMKtor_ioByteReadChannel
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitContentWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(completionHandler:)")));
+- (BOOL)cancelCause_:(KPMKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)discardMax:(int64_t)max completionHandler:(void (^)(KPMLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("discard(max:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)peekToDestination:(KPMKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max completionHandler:(void (^)(KPMLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(KPMKtor_ioChunkBuffer *)dst completionHandler:(void (^)(KPMInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(KPMKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(KPMInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
+- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(KPMKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(KPMInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler_:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(KPMInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler__:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readBooleanWithCompletionHandler:(void (^)(KPMBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readBoolean(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readByteWithCompletionHandler:(void (^)(KPMByte * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readByte(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readDoubleWithCompletionHandler:(void (^)(KPMDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readDouble(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFloatWithCompletionHandler:(void (^)(KPMFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readFloat(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(KPMKtor_ioChunkBuffer *)dst n:(int32_t)n completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:n:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(KPMKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler_:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler__:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readIntWithCompletionHandler:(void (^)(KPMInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readInt(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readLongWithCompletionHandler:(void (^)(KPMLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readLong(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readPacketSize:(int32_t)size completionHandler:(void (^)(KPMKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readPacket(size:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readRemainingLimit:(int64_t)limit completionHandler:(void (^)(KPMKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readRemaining(limit:completionHandler:)")));
+- (void)readSessionConsumer:(void (^)(id<KPMKtor_ioReadSession>))consumer __attribute__((swift_name("readSession(consumer:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readShortWithCompletionHandler:(void (^)(KPMShort * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readShort(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readSuspendableSessionConsumer:(id<KPMKotlinSuspendFunction1>)consumer completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readSuspendableSession(consumer:completionHandler:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineLimit:(int32_t)limit completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8Line(limit:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineToOut:(id<KPMKotlinAppendable>)out limit:(int32_t)limit completionHandler:(void (^)(KPMBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8LineTo(out:limit:completionHandler:)")));
+@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
+@property (readonly) KPMKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
+@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
+@property (readonly) BOOL isClosedForWrite __attribute__((swift_name("isClosedForWrite")));
+@property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
+@protocol KPMKtor_utilsStringValuesBuilder
+@required
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<KPMKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<KPMKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<KPMKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<KPMKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
+@interface KPMKtor_utilsStringValuesBuilderImpl : KPMBase <KPMKtor_utilsStringValuesBuilder>
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer));
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<KPMKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<KPMKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<KPMKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<KPMKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@property (readonly) KPMMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeadersBuilder")))
+@interface KPMKtor_httpHeadersBuilder : KPMKtor_utilsStringValuesBuilderImpl
+- (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (id<KPMKtor_httpHeaders>)build __attribute__((swift_name("build()")));
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder.Companion")))
+@interface KPMKtor_client_coreHttpRequestBuilderCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpRequestBuilderCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLBuilder")))
+@interface KPMKtor_httpURLBuilder : KPMBase
+- (instancetype)initWithProtocol:(KPMKtor_httpURLProtocol *)protocol host:(NSString *)host port:(int32_t)port user:(NSString * _Nullable)user password:(NSString * _Nullable)password pathSegments:(NSArray<NSString *> *)pathSegments parameters:(id<KPMKtor_httpParameters>)parameters fragment:(NSString *)fragment trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:port:user:password:pathSegments:parameters:fragment:trailingQuery:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpURLBuilderCompanion *companion __attribute__((swift_name("companion")));
+- (KPMKtor_httpUrl *)build __attribute__((swift_name("build()")));
+- (NSString *)buildString __attribute__((swift_name("buildString()")));
+@property NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property id<KPMKtor_httpParametersBuilder> encodedParameters __attribute__((swift_name("encodedParameters")));
+@property NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property NSArray<NSString *> *encodedPathSegments __attribute__((swift_name("encodedPathSegments")));
+@property NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property NSString *fragment __attribute__((swift_name("fragment")));
+@property NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<KPMKtor_httpParametersBuilder> parameters __attribute__((swift_name("parameters")));
+@property NSString * _Nullable password __attribute__((swift_name("password")));
+@property NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property int32_t port __attribute__((swift_name("port")));
+@property KPMKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property NSString * _Nullable user __attribute__((swift_name("user")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsTypeInfo")))
+@interface KPMKtor_utilsTypeInfo : KPMBase
+- (instancetype)initWithType:(id<KPMKotlinKClass>)type reifiedType:(id<KPMKotlinKType>)reifiedType kotlinType:(id<KPMKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer));
+- (id<KPMKotlinKClass>)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<KPMKotlinKType>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<KPMKotlinKType> _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_utilsTypeInfo *)doCopyType:(id<KPMKotlinKClass>)type reifiedType:(id<KPMKotlinKType>)reifiedType kotlinType:(id<KPMKotlinKType> _Nullable)kotlinType __attribute__((swift_name("doCopy(type:reifiedType:kotlinType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KPMKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
+@property (readonly) id<KPMKotlinKType> reifiedType __attribute__((swift_name("reifiedType")));
+@property (readonly) id<KPMKotlinKClass> type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
+@interface KPMKtor_client_coreHttpClientCallCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsAttributeKey<id> *CustomResponse __attribute__((swift_name("CustomResponse"))) __attribute__((unavailable("This is going to be removed. Please file a ticket with clarification why and what for do you need it.")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpRequest")))
+@protocol KPMKtor_client_coreHttpRequest <KPMKtor_httpHttpMessage, KPMKotlinx_coroutines_coreCoroutineScope>
+@required
+@property (readonly) id<KPMKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) KPMKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) KPMKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
+@property (readonly) KPMKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) KPMKtor_httpUrl *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl.Companion")))
+@interface KPMKtor_httpUrlCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Ktor_httpParameters")))
+@protocol KPMKtor_httpParameters <KPMKtor_utilsStringValues>
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface KPMKtor_httpURLProtocol : KPMBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
+@interface KPMKtor_httpHttpMethodCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
+@property (readonly) NSArray<KPMKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
+@property (readonly) KPMKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
+@property (readonly) KPMKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
+@property (readonly) KPMKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
+@property (readonly) KPMKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
+@property (readonly) KPMKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
+@property (readonly) KPMKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
+@property (readonly) KPMKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
+@end;
+
+__attribute__((swift_name("KotlinMapEntry")))
+@protocol KPMKotlinMapEntry
+@required
+@property (readonly) id _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
+@interface KPMKtor_httpHeaderValueWithParameters : KPMBase
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KPMKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) NSArray<KPMKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType")))
+@interface KPMKtor_httpContentType : KPMKtor_httpHeaderValueWithParameters
+- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<KPMKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KPMKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)matchPattern:(KPMKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
+- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
+- (KPMKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
+- (KPMKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
+@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
+@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol KPMKotlinx_coroutines_coreChildHandle <KPMKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(KPMKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<KPMKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol KPMKotlinx_coroutines_coreChildJob <KPMKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<KPMKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol KPMKotlinSequence
+@required
+- (id<KPMKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol KPMKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<KPMKotlinx_coroutines_coreSelectInstance>)select block:(id<KPMKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
+@interface KPMKtor_httpHttpStatusCodeCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpHttpStatusCodeCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_httpHttpStatusCode *)fromValueValue:(int32_t)value __attribute__((swift_name("fromValue(value:)")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Accepted __attribute__((swift_name("Accepted")));
+@property (readonly) KPMKtor_httpHttpStatusCode *BadGateway __attribute__((swift_name("BadGateway")));
+@property (readonly) KPMKtor_httpHttpStatusCode *BadRequest __attribute__((swift_name("BadRequest")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Conflict __attribute__((swift_name("Conflict")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Continue __attribute__((swift_name("Continue")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Created __attribute__((swift_name("Created")));
+@property (readonly) KPMKtor_httpHttpStatusCode *ExpectationFailed __attribute__((swift_name("ExpectationFailed")));
+@property (readonly) KPMKtor_httpHttpStatusCode *FailedDependency __attribute__((swift_name("FailedDependency")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Forbidden __attribute__((swift_name("Forbidden")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Found __attribute__((swift_name("Found")));
+@property (readonly) KPMKtor_httpHttpStatusCode *GatewayTimeout __attribute__((swift_name("GatewayTimeout")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Gone __attribute__((swift_name("Gone")));
+@property (readonly) KPMKtor_httpHttpStatusCode *InsufficientStorage __attribute__((swift_name("InsufficientStorage")));
+@property (readonly) KPMKtor_httpHttpStatusCode *InternalServerError __attribute__((swift_name("InternalServerError")));
+@property (readonly) KPMKtor_httpHttpStatusCode *LengthRequired __attribute__((swift_name("LengthRequired")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Locked __attribute__((swift_name("Locked")));
+@property (readonly) KPMKtor_httpHttpStatusCode *MethodNotAllowed __attribute__((swift_name("MethodNotAllowed")));
+@property (readonly) KPMKtor_httpHttpStatusCode *MovedPermanently __attribute__((swift_name("MovedPermanently")));
+@property (readonly) KPMKtor_httpHttpStatusCode *MultiStatus __attribute__((swift_name("MultiStatus")));
+@property (readonly) KPMKtor_httpHttpStatusCode *MultipleChoices __attribute__((swift_name("MultipleChoices")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NoContent __attribute__((swift_name("NoContent")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NonAuthoritativeInformation __attribute__((swift_name("NonAuthoritativeInformation")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NotAcceptable __attribute__((swift_name("NotAcceptable")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NotFound __attribute__((swift_name("NotFound")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NotImplemented __attribute__((swift_name("NotImplemented")));
+@property (readonly) KPMKtor_httpHttpStatusCode *NotModified __attribute__((swift_name("NotModified")));
+@property (readonly) KPMKtor_httpHttpStatusCode *OK __attribute__((swift_name("OK")));
+@property (readonly) KPMKtor_httpHttpStatusCode *PartialContent __attribute__((swift_name("PartialContent")));
+@property (readonly) KPMKtor_httpHttpStatusCode *PayloadTooLarge __attribute__((swift_name("PayloadTooLarge")));
+@property (readonly) KPMKtor_httpHttpStatusCode *PaymentRequired __attribute__((swift_name("PaymentRequired")));
+@property (readonly) KPMKtor_httpHttpStatusCode *PermanentRedirect __attribute__((swift_name("PermanentRedirect")));
+@property (readonly) KPMKtor_httpHttpStatusCode *PreconditionFailed __attribute__((swift_name("PreconditionFailed")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Processing __attribute__((swift_name("Processing")));
+@property (readonly) KPMKtor_httpHttpStatusCode *ProxyAuthenticationRequired __attribute__((swift_name("ProxyAuthenticationRequired")));
+@property (readonly) KPMKtor_httpHttpStatusCode *RequestHeaderFieldTooLarge __attribute__((swift_name("RequestHeaderFieldTooLarge")));
+@property (readonly) KPMKtor_httpHttpStatusCode *RequestTimeout __attribute__((swift_name("RequestTimeout")));
+@property (readonly) KPMKtor_httpHttpStatusCode *RequestURITooLong __attribute__((swift_name("RequestURITooLong")));
+@property (readonly) KPMKtor_httpHttpStatusCode *RequestedRangeNotSatisfiable __attribute__((swift_name("RequestedRangeNotSatisfiable")));
+@property (readonly) KPMKtor_httpHttpStatusCode *ResetContent __attribute__((swift_name("ResetContent")));
+@property (readonly) KPMKtor_httpHttpStatusCode *SeeOther __attribute__((swift_name("SeeOther")));
+@property (readonly) KPMKtor_httpHttpStatusCode *ServiceUnavailable __attribute__((swift_name("ServiceUnavailable")));
+@property (readonly) KPMKtor_httpHttpStatusCode *SwitchProxy __attribute__((swift_name("SwitchProxy")));
+@property (readonly) KPMKtor_httpHttpStatusCode *SwitchingProtocols __attribute__((swift_name("SwitchingProtocols")));
+@property (readonly) KPMKtor_httpHttpStatusCode *TemporaryRedirect __attribute__((swift_name("TemporaryRedirect")));
+@property (readonly) KPMKtor_httpHttpStatusCode *TooManyRequests __attribute__((swift_name("TooManyRequests")));
+@property (readonly) KPMKtor_httpHttpStatusCode *Unauthorized __attribute__((swift_name("Unauthorized")));
+@property (readonly) KPMKtor_httpHttpStatusCode *UnprocessableEntity __attribute__((swift_name("UnprocessableEntity")));
+@property (readonly) KPMKtor_httpHttpStatusCode *UnsupportedMediaType __attribute__((swift_name("UnsupportedMediaType")));
+@property (readonly) KPMKtor_httpHttpStatusCode *UpgradeRequired __attribute__((swift_name("UpgradeRequired")));
+@property (readonly) KPMKtor_httpHttpStatusCode *UseProxy __attribute__((swift_name("UseProxy")));
+@property (readonly) KPMKtor_httpHttpStatusCode *VariantAlsoNegotiates __attribute__((swift_name("VariantAlsoNegotiates")));
+@property (readonly) KPMKtor_httpHttpStatusCode *VersionNotSupported __attribute__((swift_name("VersionNotSupported")));
+@property (readonly) NSArray<KPMKtor_httpHttpStatusCode *> *allStatusCodes __attribute__((swift_name("allStatusCodes")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
+@interface KPMKtor_utilsGMTDateCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_utilsGMTDate *START __attribute__((swift_name("START")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay")))
+@interface KPMKtor_utilsWeekDay : KPMKotlinEnum<KPMKtor_utilsWeekDay *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) KPMKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
+@property (class, readonly) KPMKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
++ (KPMKotlinArray<KPMKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth")))
+@interface KPMKtor_utilsMonth : KPMKotlinEnum<KPMKtor_utilsMonth *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) KPMKtor_utilsMonth *january __attribute__((swift_name("january")));
+@property (class, readonly) KPMKtor_utilsMonth *february __attribute__((swift_name("february")));
+@property (class, readonly) KPMKtor_utilsMonth *march __attribute__((swift_name("march")));
+@property (class, readonly) KPMKtor_utilsMonth *april __attribute__((swift_name("april")));
+@property (class, readonly) KPMKtor_utilsMonth *may __attribute__((swift_name("may")));
+@property (class, readonly) KPMKtor_utilsMonth *june __attribute__((swift_name("june")));
+@property (class, readonly) KPMKtor_utilsMonth *july __attribute__((swift_name("july")));
+@property (class, readonly) KPMKtor_utilsMonth *august __attribute__((swift_name("august")));
+@property (class, readonly) KPMKtor_utilsMonth *september __attribute__((swift_name("september")));
+@property (class, readonly) KPMKtor_utilsMonth *october __attribute__((swift_name("october")));
+@property (class, readonly) KPMKtor_utilsMonth *november __attribute__((swift_name("november")));
+@property (class, readonly) KPMKtor_utilsMonth *december __attribute__((swift_name("december")));
++ (KPMKotlinArray<KPMKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
+@interface KPMKtor_httpHttpProtocolVersionCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
+- (KPMKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
+@property (readonly) KPMKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioMemory")))
+@interface KPMKtor_ioMemory : KPMBase
+- (instancetype)initWithPointer:(void *)pointer size:(int64_t)size __attribute__((swift_name("init(pointer:size:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_ioMemoryCompanion *companion __attribute__((swift_name("companion")));
+- (void)doCopyToDestination:(KPMKtor_ioMemory *)destination offset:(int32_t)offset length:(int32_t)length destinationOffset:(int32_t)destinationOffset __attribute__((swift_name("doCopyTo(destination:offset:length:destinationOffset:)")));
+- (void)doCopyToDestination:(KPMKtor_ioMemory *)destination offset:(int64_t)offset length:(int64_t)length destinationOffset_:(int64_t)destinationOffset __attribute__((swift_name("doCopyTo(destination:offset:length:destinationOffset_:)")));
+- (int8_t)loadAtIndex:(int32_t)index __attribute__((swift_name("loadAt(index:)")));
+- (int8_t)loadAtIndex_:(int64_t)index __attribute__((swift_name("loadAt(index_:)")));
+- (KPMKtor_ioMemory *)sliceOffset:(int32_t)offset length:(int32_t)length __attribute__((swift_name("slice(offset:length:)")));
+- (KPMKtor_ioMemory *)sliceOffset:(int64_t)offset length_:(int64_t)length __attribute__((swift_name("slice(offset:length_:)")));
+- (void)storeAtIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("storeAt(index:value:)")));
+- (void)storeAtIndex:(int64_t)index value_:(int8_t)value __attribute__((swift_name("storeAt(index:value_:)")));
+@property (readonly) void *pointer __attribute__((swift_name("pointer")));
+@property (readonly) int64_t size __attribute__((swift_name("size")));
+@property (readonly) int32_t size32 __attribute__((swift_name("size32")));
+@end;
+
+__attribute__((swift_name("Ktor_ioBuffer")))
+@interface KPMKtor_ioBuffer : KPMBase
+- (instancetype)initWithMemory:(KPMKtor_ioMemory *)memory __attribute__((swift_name("init(memory:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_ioBufferCompanion *companion __attribute__((swift_name("companion")));
+- (void)commitWrittenCount:(int32_t)count __attribute__((swift_name("commitWritten(count:)")));
+- (void)discardExactCount:(int32_t)count __attribute__((swift_name("discardExact(count:)")));
+- (KPMKtor_ioBuffer *)duplicate __attribute__((swift_name("duplicate()")));
+- (void)duplicateToCopy:(KPMKtor_ioBuffer *)copy __attribute__((swift_name("duplicateTo(copy:)")));
+- (int8_t)readByte __attribute__((swift_name("readByte()")));
+- (void)reserveEndGapEndGap:(int32_t)endGap __attribute__((swift_name("reserveEndGap(endGap:)")));
+- (void)reserveStartGapStartGap:(int32_t)startGap __attribute__((swift_name("reserveStartGap(startGap:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)resetForRead __attribute__((swift_name("resetForRead()")));
+- (void)resetForWrite __attribute__((swift_name("resetForWrite()")));
+- (void)resetForWriteLimit:(int32_t)limit __attribute__((swift_name("resetForWrite(limit:)")));
+- (void)rewindCount:(int32_t)count __attribute__((swift_name("rewind(count:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (int32_t)tryPeekByte __attribute__((swift_name("tryPeekByte()")));
+- (int32_t)tryReadByte __attribute__((swift_name("tryReadByte()")));
+- (void)writeByteValue:(int8_t)value __attribute__((swift_name("writeByte(value:)")));
+@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
+@property (readonly) int32_t endGap __attribute__((swift_name("endGap")));
+@property (readonly) int32_t limit __attribute__((swift_name("limit")));
+@property (readonly) KPMKtor_ioMemory *memory __attribute__((swift_name("memory")));
+@property (readonly) int32_t readPosition __attribute__((swift_name("readPosition")));
+@property (readonly) int32_t readRemaining __attribute__((swift_name("readRemaining")));
+@property (readonly) int32_t startGap __attribute__((swift_name("startGap")));
+@property (readonly) int32_t writePosition __attribute__((swift_name("writePosition")));
+@property (readonly) int32_t writeRemaining __attribute__((swift_name("writeRemaining")));
+@end;
+
+__attribute__((swift_name("Ktor_ioChunkBuffer")))
+@interface KPMKtor_ioChunkBuffer : KPMKtor_ioBuffer
+- (instancetype)initWithMemory:(KPMKtor_ioMemory *)memory origin:(KPMKtor_ioChunkBuffer * _Nullable)origin parentPool:(id<KPMKtor_ioObjectPool> _Nullable)parentPool __attribute__((swift_name("init(memory:origin:parentPool:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMemory:(KPMKtor_ioMemory *)memory __attribute__((swift_name("init(memory:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_ioChunkBufferCompanion *companion __attribute__((swift_name("companion")));
+- (KPMKtor_ioChunkBuffer * _Nullable)cleanNext __attribute__((swift_name("cleanNext()")));
+- (KPMKtor_ioChunkBuffer *)duplicate __attribute__((swift_name("duplicate()")));
+- (void)releasePool:(id<KPMKtor_ioObjectPool>)pool __attribute__((swift_name("release(pool:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+@property (getter=next_) KPMKtor_ioChunkBuffer * _Nullable next __attribute__((swift_name("next")));
+@property (readonly) KPMKtor_ioChunkBuffer * _Nullable origin __attribute__((swift_name("origin")));
+@property (readonly) int32_t referenceCount __attribute__((swift_name("referenceCount")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinByteArray")))
+@interface KPMKotlinByteArray : KPMBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(KPMByte *(^)(KPMInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (KPMKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end;
+
+__attribute__((swift_name("Ktor_ioInput")))
+@interface KPMKtor_ioInput : KPMBase <KPMKtor_ioCloseable>
+- (instancetype)initWithHead:(KPMKtor_ioChunkBuffer *)head remaining:(int64_t)remaining pool:(id<KPMKtor_ioObjectPool>)pool __attribute__((swift_name("init(head:remaining:pool:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKtor_ioInputCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)canRead __attribute__((swift_name("canRead()")));
+- (void)close __attribute__((swift_name("close()")));
+- (void)closeSource __attribute__((swift_name("closeSource()")));
+- (int32_t)discardN:(int32_t)n __attribute__((swift_name("discard(n:)")));
+- (int64_t)discardN_:(int64_t)n __attribute__((swift_name("discard(n_:)")));
+- (void)discardExactN:(int32_t)n __attribute__((swift_name("discardExact(n:)")));
+- (KPMKtor_ioChunkBuffer * _Nullable)fill __attribute__((swift_name("fill()")));
+- (int32_t)fillDestination:(KPMKtor_ioMemory *)destination offset:(int32_t)offset length:(int32_t)length __attribute__((swift_name("fill(destination:offset:length:)")));
+- (BOOL)hasBytesN:(int32_t)n __attribute__((swift_name("hasBytes(n:)")));
+- (void)markNoMoreChunksAvailable __attribute__((swift_name("markNoMoreChunksAvailable()")));
+- (int64_t)peekToDestination:(KPMKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:)")));
+- (int32_t)peekToBuffer:(KPMKtor_ioChunkBuffer *)buffer __attribute__((swift_name("peekTo(buffer:)")));
+- (int8_t)readByte __attribute__((swift_name("readByte()")));
+- (NSString *)readTextMin:(int32_t)min max:(int32_t)max __attribute__((swift_name("readText(min:max:)")));
+- (int32_t)readTextOut:(id<KPMKotlinAppendable>)out min:(int32_t)min max:(int32_t)max __attribute__((swift_name("readText(out:min:max:)")));
+- (NSString *)readTextExactExactCharacters:(int32_t)exactCharacters __attribute__((swift_name("readTextExact(exactCharacters:)")));
+- (void)readTextExactOut:(id<KPMKotlinAppendable>)out exactCharacters:(int32_t)exactCharacters __attribute__((swift_name("readTextExact(out:exactCharacters:)")));
+- (void)release_ __attribute__((swift_name("release()")));
+- (int32_t)tryPeek __attribute__((swift_name("tryPeek()")));
+@property (readonly) BOOL endOfInput __attribute__((swift_name("endOfInput")));
+@property (readonly) id<KPMKtor_ioObjectPool> pool __attribute__((swift_name("pool")));
+@property (readonly) int64_t remaining __attribute__((swift_name("remaining")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioByteReadPacket")))
+@interface KPMKtor_ioByteReadPacket : KPMKtor_ioInput
+- (instancetype)initWithHead:(KPMKtor_ioChunkBuffer *)head pool:(id<KPMKtor_ioObjectPool>)pool __attribute__((swift_name("init(head:pool:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithHead:(KPMKtor_ioChunkBuffer *)head remaining:(int64_t)remaining pool:(id<KPMKtor_ioObjectPool>)pool __attribute__((swift_name("init(head:remaining:pool:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KPMKtor_ioByteReadPacketCompanion *companion __attribute__((swift_name("companion")));
+- (void)closeSource __attribute__((swift_name("closeSource()")));
+- (KPMKtor_ioByteReadPacket *)doCopy __attribute__((swift_name("doCopy()")));
+- (KPMKtor_ioChunkBuffer * _Nullable)fill __attribute__((swift_name("fill()")));
+- (int32_t)fillDestination:(KPMKtor_ioMemory *)destination offset:(int32_t)offset length:(int32_t)length __attribute__((swift_name("fill(destination:offset:length:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("Ktor_ioReadSession")))
+@protocol KPMKtor_ioReadSession
+@required
+- (int32_t)discardN:(int32_t)n __attribute__((swift_name("discard(n:)")));
+- (KPMKtor_ioChunkBuffer * _Nullable)requestAtLeast:(int32_t)atLeast __attribute__((swift_name("request(atLeast:)")));
+@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction1")))
+@protocol KPMKotlinSuspendFunction1 <KPMKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("KotlinAppendable")))
+@protocol KPMKotlinAppendable
+@required
+- (id<KPMKotlinAppendable>)appendValue:(unichar)value __attribute__((swift_name("append(value:)")));
+- (id<KPMKotlinAppendable>)appendValue_:(id _Nullable)value __attribute__((swift_name("append(value_:)")));
+- (id<KPMKotlinAppendable>)appendValue:(id _Nullable)value startIndex:(int32_t)startIndex endIndex:(int32_t)endIndex __attribute__((swift_name("append(value:startIndex:endIndex:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
+@interface KPMKtor_httpURLBuilderCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Ktor_httpParametersBuilder")))
+@protocol KPMKtor_httpParametersBuilder <KPMKtor_utilsStringValuesBuilder>
+@required
+@end;
+
+__attribute__((swift_name("KotlinKType")))
+@protocol KPMKotlinKType
+@required
+@property (readonly) NSArray<KPMKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
+@property (readonly) id<KPMKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
+@property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol.Companion")))
+@interface KPMKtor_httpURLProtocolCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpURLProtocolCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_httpURLProtocol *)createOrDefaultName:(NSString *)name __attribute__((swift_name("createOrDefault(name:)")));
+@property (readonly) KPMKtor_httpURLProtocol *HTTP __attribute__((swift_name("HTTP")));
+@property (readonly) KPMKtor_httpURLProtocol *HTTPS __attribute__((swift_name("HTTPS")));
+@property (readonly) KPMKtor_httpURLProtocol *SOCKS __attribute__((swift_name("SOCKS")));
+@property (readonly) KPMKtor_httpURLProtocol *WS __attribute__((swift_name("WS")));
+@property (readonly) KPMKtor_httpURLProtocol *WSS __attribute__((swift_name("WSS")));
+@property (readonly) NSDictionary<NSString *, KPMKtor_httpURLProtocol *> *byName __attribute__((swift_name("byName")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueParam")))
+@interface KPMKtor_httpHeaderValueParam : KPMBase
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value __attribute__((swift_name("doCopy(name:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters.Companion")))
+@interface KPMKtor_httpHeaderValueWithParametersCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpHeaderValueWithParametersCompanion *shared __attribute__((swift_name("shared")));
+- (id _Nullable)parseValue:(NSString *)value init:(id _Nullable (^)(NSString *, NSArray<KPMKtor_httpHeaderValueParam *> *))init __attribute__((swift_name("parse(value:init:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType.Companion")))
+@interface KPMKtor_httpContentTypeCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) KPMKtor_httpContentType *Any __attribute__((swift_name("Any")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol KPMKotlinx_coroutines_coreParentJob <KPMKotlinx_coroutines_coreJob>
+@required
+- (KPMKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol KPMKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<KPMKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(KPMKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(KPMKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<KPMKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol KPMKotlinSuspendFunction0 <KPMKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
+@interface KPMKtor_utilsWeekDayCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (KPMKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth.Companion")))
+@interface KPMKtor_utilsMonthCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (KPMKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioMemory.Companion")))
+@interface KPMKtor_ioMemoryCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_ioMemoryCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_ioMemory *Empty __attribute__((swift_name("Empty")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioBuffer.Companion")))
+@interface KPMKtor_ioBufferCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_ioBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_ioBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) int32_t ReservedSize __attribute__((swift_name("ReservedSize")));
+@end;
+
+__attribute__((swift_name("Ktor_ioObjectPool")))
+@protocol KPMKtor_ioObjectPool <KPMKtor_ioCloseable>
+@required
+- (id)borrow __attribute__((swift_name("borrow()")));
+- (void)dispose __attribute__((swift_name("dispose()")));
+- (void)recycleInstance:(id)instance __attribute__((swift_name("recycle(instance:)")));
+@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioChunkBuffer.Companion")))
+@interface KPMKtor_ioChunkBufferCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_ioChunkBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_ioChunkBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) id<KPMKtor_ioObjectPool> EmptyPool __attribute__((swift_name("EmptyPool")));
+@property (readonly) id<KPMKtor_ioObjectPool> Pool __attribute__((swift_name("Pool")));
+@end;
+
+__attribute__((swift_name("KotlinByteIterator")))
+@interface KPMKotlinByteIterator : KPMBase <KPMKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (KPMByte *)next __attribute__((swift_name("next()")));
+- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioInput.Companion")))
+@interface KPMKtor_ioInputCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_ioInputCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
+@interface KPMKtor_ioByteReadPacketCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KPMKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection")))
+@interface KPMKotlinKTypeProjection : KPMBase
+- (instancetype)initWithVariance:(KPMKotlinKVariance * _Nullable)variance type:(id<KPMKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KPMKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
+- (KPMKotlinKVariance * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<KPMKotlinKType> _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KPMKotlinKTypeProjection *)doCopyVariance:(KPMKotlinKVariance * _Nullable)variance type:(id<KPMKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KPMKotlinKType> _Nullable type __attribute__((swift_name("type")));
+@property (readonly) KPMKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface KPMKotlinx_coroutines_coreAtomicDesc : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(KPMKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(KPMKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property KPMKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface KPMKotlinx_coroutines_coreOpDescriptor : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(KPMKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : KPMKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) KPMKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKVariance")))
+@interface KPMKotlinKVariance : KPMKotlinEnum<KPMKotlinKVariance *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KPMKotlinKVariance *invariant __attribute__((swift_name("invariant")));
+@property (class, readonly) KPMKotlinKVariance *in __attribute__((swift_name("in")));
+@property (class, readonly) KPMKotlinKVariance *out __attribute__((swift_name("out")));
++ (KPMKotlinArray<KPMKotlinKVariance *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection.Companion")))
+@interface KPMKotlinKTypeProjectionCompanion : KPMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KPMKotlinKTypeProjectionCompanion *shared __attribute__((swift_name("shared")));
+- (KPMKotlinKTypeProjection *)contravariantType:(id<KPMKotlinKType>)type __attribute__((swift_name("contravariant(type:)")));
+- (KPMKotlinKTypeProjection *)covariantType:(id<KPMKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
+- (KPMKotlinKTypeProjection *)invariantType:(id<KPMKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
+@property (readonly) KPMKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
+@interface KPMKotlinx_coroutines_coreAtomicOp<__contravariant T> : KPMKotlinx_coroutines_coreOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) KPMKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
+@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
+@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
+@interface KPMKotlinx_coroutines_coreLockFreeLinkedListNode : KPMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(KPMBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addLastIfPrevNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KPMBoolean *(^)(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
+- (BOOL)addLastIfPrevAndIfNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KPMBoolean *(^)(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(KPMBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
+- (BOOL)addOneIfEmptyNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<KPMKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<KPMKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
+- (void)helpRemove __attribute__((swift_name("helpRemove()")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(KPMBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
+@interface KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : KPMKotlinx_coroutines_coreAtomicDesc
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(KPMKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)failureAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (id _Nullable)onPreparePrepareOp:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
+- (void)onRemovedAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
+- (id _Nullable)prepareOp:(KPMKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+- (BOOL)retryAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(KPMKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
+@interface KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishOnSuccessAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(KPMKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) T node __attribute__((swift_name("node")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
+@interface KPMKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : KPMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (id _Nullable)failureAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(KPMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(KPMKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KPMKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) KPMKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
+@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end;
 
 #pragma pop_macro("_Nullable_result")
